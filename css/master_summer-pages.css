@@ -1,0 +1,55 @@
+#u232
+{
+	background-color: #222222;
+}
+
+#u232_align_to_page
+{
+	position: relative;
+}
+
+#u260
+{
+	background-color: transparent;
+	position: relative;
+}
+
+#u266
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u224
+{
+	border-width: 2px;
+	border-style: solid;
+	border-color: #F54F4B;
+	background-color: transparent;
+	position: relative;
+}
+
+#u225-4
+{
+	background-color: transparent;
+	color: #F54F4B;
+	font-size: 18px;
+	text-align: center;
+	line-height: 16px;
+	font-family: '__StratumNo2Medium_5';
+	font-weight: 500;
+	position: relative;
+}
+
+#u240
+{
+	background: -webkit-gradient(linear, left center, right center, from(#FA9B3D),color-stop(100%, #F54F4B));
+	background: -webkit-linear-gradient(left,#FA9B3D ,#F54F4B 100%);
+	background: linear-gradient(to right,#FA9B3D ,#F54F4B 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFA9B3D, endColorstr=#FFF54F4B, GradientType=1);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFA9B3D', endColorstr='#FFF54F4B', GradientType=1)";
+	background-size: 100% auto;
+}
+

@@ -1,0 +1,296 @@
+/*
+
+*/
+
+.version.mcs /* version checker */
+{
+	color: #000011;
+	background-color: #59DBB1;
+}
+
+.html
+{
+	background-color: #F6F6F6;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1280px;
+	min-height: 1100px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	padding-top: 75px;
+	width: 0.01px;
+}
+
+#u102
+{
+	z-index: 16;
+	height: 75px;
+	top: 0px;
+}
+
+#u102-bw
+{
+	z-index: 16;
+}
+
+#u220
+{
+	z-index: 25;
+	width: 186px;
+	top: 17px;
+	left: 50%;
+	margin-left: -640px;
+}
+
+#u103
+{
+	z-index: 26;
+	width: 41px;
+	margin-right: -10000px;
+}
+
+#u160-6
+{
+	z-index: 28;
+	width: 136px;
+	min-height: 26px;
+	margin-right: -10000px;
+	margin-top: 7px;
+	left: 50px;
+}
+
+#u160-6:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 26px;
+	width: 136px;
+	margin: 7px -10000px 0px 0px;
+}
+
+#u170
+{
+	z-index: 38;
+	width: 96px;
+	height: 28px;
+	top: 21px;
+	left: 50%;
+	margin-left: 540px;
+}
+
+#u159-4
+{
+	z-index: 17;
+	width: 50px;
+	min-height: 14px;
+	top: 30px;
+	left: 50%;
+	margin-left: -315px;
+}
+
+#u159-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 50px;
+	margin: 0px 0px 0px -315px;
+}
+
+#u161-4
+{
+	z-index: 21;
+	width: 80px;
+	min-height: 14px;
+	top: 30px;
+	left: 50%;
+	margin-left: -225px;
+}
+
+#u161-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 80px;
+	margin: 0px 0px 0px -225px;
+}
+
+#u162-4
+{
+	z-index: 34;
+	width: 55px;
+	min-height: 14px;
+	top: 30px;
+	left: 50%;
+	margin-left: -105px;
+}
+
+#u162-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 55px;
+	margin: 0px 0px 0px -105px;
+}
+
+#u163-4
+{
+	z-index: 39;
+	width: 80px;
+	min-height: 14px;
+	top: 29px;
+	left: 50%;
+	margin-left: 550px;
+}
+
+#u163-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 80px;
+	margin: 0px 0px 0px 550px;
+}
+
+#u164
+{
+	z-index: 2;
+	min-height: 1025px;
+	background-color: transparent;
+}
+
+#u164_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1280px;
+	position: relative;
+	left: -100px;
+	padding-top: 465px;
+	padding-bottom: 335px;
+}
+
+#u168
+{
+	z-index: 3;
+	width: 682px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	left: 100px;
+	position: relative;
+}
+
+#u166
+{
+	z-index: 4;
+	width: 682px;
+	height: 54px;
+	background-color: #FFFFFF;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u167
+{
+	z-index: 5;
+	width: 228px;
+	height: 54px;
+	background-color: #FFFFFF;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 54px;
+}
+
+#u165-6
+{
+	z-index: 6;
+	width: 670px;
+	min-height: 100px;
+	background-color: transparent;
+	color: #44CBE8;
+	font-size: 50px;
+	line-height: 55px;
+	font-family: '__StratumNo2_5';
+	font-weight: 900;
+	position: relative;
+	margin-right: -10000px;
+	left: 10px;
+}
+
+#u169-4
+{
+	z-index: 12;
+	width: 560px;
+	min-height: 45px;
+	background-color: transparent;
+	font-size: 12px;
+	line-height: 14px;
+	font-family: '__Apercu Mono_5';
+	font-weight: 400;
+	left: 100px;
+	margin-top: 70px;
+	position: relative;
+}
+
+#u164-bw
+{
+	z-index: 2;
+	min-height: 1025px;
+}
+
+@font-face
+{
+	font-family: '__StratumNo2Medium_5';
+	src: url('../fonts/stratumno2-medium-webfont.eot');
+	src: local('☺'), url('../fonts/stratumno2-medium-webfont.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__Apercu Mono_5';
+	src: url('../fonts/apercu-mono-webfont.eot');
+	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__StratumNo2Bold_5';
+	src: url('../fonts/stratumno2-bold-webfont.eot');
+	src: local('☺'), url('../fonts/stratumno2-bold-webfont.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__StratumNo2_5';
+	src: url('../fonts/stratum2-black-webfont.eot');
+	src: local('☺'), url('../fonts/stratum2-black-webfont.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+}
+
+body
+{
+	position: relative;
+	min-width: 1280px;
+}
+
