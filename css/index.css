@@ -4,8 +4,8 @@
 
 .version.index /* version checker */
 {
-	color: #0000FC;
-	background-color: #82E31D;
+	color: #00000A;
+	background-color: #100867;
 }
 
 .html
@@ -26,9 +26,26 @@
 	margin-right: auto;
 }
 
-#u415
+#u401
 {
 	z-index: 2;
+	min-height: 360px;
+	background-color: #222222;
+	padding-bottom: 540px;
+}
+
+#u401_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1280px;
+	position: relative;
+	left: -100px;
+}
+
+#u415
+{
+	z-index: 3;
 	width: 400px;
 	min-height: 300px;
 	border-style: none;
@@ -37,11 +54,18 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 60px;
+	left: 100px;
+}
+
+#u401-bw
+{
+	z-index: 2;
+	min-height: 360px;
 }
 
 #u422
 {
-	z-index: 3;
+	z-index: 4;
 	min-height: 900px;
 	border-style: none;
 	border-color: transparent;
@@ -50,13 +74,13 @@
 
 #u422-bw
 {
-	z-index: 3;
+	z-index: 4;
 	min-height: 900px;
 }
 
 #u77-6
 {
-	z-index: 4;
+	z-index: 5;
 	width: 271px;
 	min-height: 120px;
 	background-color: transparent;
@@ -74,7 +98,7 @@
 
 #u83-4
 {
-	z-index: 10;
+	z-index: 11;
 	width: 230px;
 	min-height: 19px;
 	background-color: transparent;
@@ -92,7 +116,7 @@
 
 #u84-4
 {
-	z-index: 14;
+	z-index: 15;
 	width: 230px;
 	min-height: 19px;
 	background-color: transparent;
@@ -110,7 +134,7 @@
 
 #u85-4
 {
-	z-index: 18;
+	z-index: 19;
 	width: 260px;
 	min-height: 19px;
 	background-color: #FFFFFF;
@@ -159,8 +183,8 @@
 
 #u88-4
 {
-	z-index: 22;
-	width: 200px;
+	z-index: 23;
+	width: 208px;
 	min-height: 19px;
 	background-color: #FFFFFF;
 	background-color: rgba(255,255,255,0.15);
@@ -173,7 +197,7 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 590px;
-	left: 125px;
+	left: 117px;
 	-pie-background: rgba(255,255,255,0.15);
 }
 
@@ -184,7 +208,7 @@
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 19px;
-	width: 200px;
+	width: 208px;
 	margin: 590px -10000px 0px 0px;
 	-pie-background: rgba(255,255,255,0.25);
 }
@@ -196,7 +220,7 @@
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 19px;
-	width: 200px;
+	width: 208px;
 	margin: 590px -10000px 0px 0px;
 	-pie-background: rgba(255,255,255,0.4);
 }
@@ -208,7 +232,7 @@
 
 #u90-4
 {
-	z-index: 26;
+	z-index: 27;
 	width: 200px;
 	min-height: 19px;
 	background-color: #FFFFFF;
@@ -262,19 +286,19 @@
 
 @font-face
 {
-	font-family: '__StratumNo2_5';
-	src: url('../fonts/stratum2-black-webfont.eot');
-	src: local('☺'), url('../fonts/stratum2-black-webfont.woff') format('woff');
-	font-weight: 900;
+	font-family: '__Apercu Mono_5';
+	src: url('../fonts/apercu-mono-webfont.eot');
+	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
+	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face
 {
-	font-family: '__Apercu Mono_5';
-	src: url('../fonts/apercu-mono-webfont.eot');
-	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
-	font-weight: 400;
+	font-family: '__StratumNo2_5';
+	src: url('../fonts/stratum2-black-webfont.eot');
+	src: local('☺'), url('../fonts/stratum2-black-webfont.woff') format('woff');
+	font-weight: 900;
 	font-style: normal;
 }
 
