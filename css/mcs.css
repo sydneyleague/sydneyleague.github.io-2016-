@@ -4,8 +4,8 @@
 
 .version.mcs /* version checker */
 {
-	color: #0000FE;
-	background-color: #51732B;
+	color: #0000FD;
+	background-color: #1C7D79;
 }
 
 .html
@@ -221,8 +221,8 @@
 	width: 670px;
 	min-height: 100px;
 	background-color: transparent;
-	font-size: 50px;
 	line-height: 55px;
+	font-size: 50px;
 	color: #44CBE8;
 	font-family: '__StratumNo2_5';
 	font-weight: 900;
@@ -237,8 +237,8 @@
 	width: 560px;
 	min-height: 45px;
 	background-color: transparent;
-	font-size: 12px;
 	line-height: 14px;
+	font-size: 12px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	left: 100px;
@@ -273,8 +273,8 @@
 	width: 98px;
 	min-height: 46px;
 	background-color: transparent;
-	font-size: 28px;
 	line-height: 25px;
+	font-size: 28px;
 	color: #FFFFFF;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
@@ -301,10 +301,10 @@
 
 @font-face
 {
-	font-family: '__StratumNo2Medium_5';
-	src: url('../fonts/stratumno2-medium-webfont.eot');
-	src: local('☺'), url('../fonts/stratumno2-medium-webfont.woff') format('woff');
-	font-weight: 500;
+	font-family: '__StratumNo2_5';
+	src: url('../fonts/stratum2-black-webfont.eot');
+	src: local('☺'), url('../fonts/stratum2-black-webfont.woff') format('woff');
+	font-weight: 900;
 	font-style: normal;
 }
 
@@ -319,10 +319,10 @@
 
 @font-face
 {
-	font-family: '__StratumNo2_5';
-	src: url('../fonts/stratum2-black-webfont.eot');
-	src: local('☺'), url('../fonts/stratum2-black-webfont.woff') format('woff');
-	font-weight: 900;
+	font-family: '__StratumNo2Medium_5';
+	src: url('../fonts/stratumno2-medium-webfont.eot');
+	src: local('☺'), url('../fonts/stratumno2-medium-webfont.woff') format('woff');
+	font-weight: 500;
 	font-style: normal;
 }
 

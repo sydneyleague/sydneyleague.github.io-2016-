@@ -4,8 +4,8 @@
 
 .version.index /* version checker */
 {
-	color: #00000A;
-	background-color: #100867;
+	color: #000003;
+	background-color: #66DB2E;
 }
 
 .html
@@ -17,7 +17,7 @@
 {
 	z-index: 1;
 	width: 1280px;
-	min-height: 900px;
+	min-height: 960px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
@@ -26,26 +26,9 @@
 	margin-right: auto;
 }
 
-#u401
-{
-	z-index: 2;
-	min-height: 360px;
-	background-color: #222222;
-	padding-bottom: 540px;
-}
-
-#u401_align_to_page
-{
-	margin-left: auto;
-	margin-right: auto;
-	width: 1280px;
-	position: relative;
-	left: -100px;
-}
-
 #u415
 {
-	z-index: 3;
+	z-index: 2;
 	width: 400px;
 	min-height: 300px;
 	border-style: none;
@@ -54,19 +37,12 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 60px;
-	left: 100px;
-}
-
-#u401-bw
-{
-	z-index: 2;
-	min-height: 360px;
 }
 
 #u422
 {
-	z-index: 4;
-	min-height: 900px;
+	z-index: 3;
+	min-height: 940px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
@@ -74,20 +50,87 @@
 
 #u422-bw
 {
+	z-index: 3;
+	min-height: 940px;
+}
+
+#u454
+{
 	z-index: 4;
-	min-height: 900px;
+	width: 300px;
+	min-height: 35px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 850px;
+	left: 490px;
+}
+
+#u463
+{
+	z-index: 5;
+	width: 52px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 910px;
+	left: 614px;
+}
+
+#u460
+{
+	z-index: 10;
+	overflow: hidden;
+	position: relative;
+	width: 24px;
+	margin-right: -10000px;
+}
+
+#u459-4
+{
+	z-index: 6;
+	width: 27px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 22px;
+	font-size: 24px;
+	color: #FFFFFF;
+	font-family: '__StratumNo2Bold_5';
+	font-weight: 700;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 2px;
+	left: 25px;
+}
+
+#u459-4.MuseLinkActive
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 18px;
+	width: 27px;
+	margin: 2px -10000px 0px 0px;
+}
+
+#u459-4.MuseLinkActive p
+{
+	font-size: 24px;
 }
 
 #u77-6
 {
-	z-index: 5;
+	z-index: 11;
 	width: 271px;
 	min-height: 120px;
 	background-color: transparent;
+	line-height: 65px;
 	color: #FFFFFF;
 	font-size: 72px;
 	text-align: center;
-	line-height: 65px;
 	font-family: '__StratumNo2_5';
 	font-weight: 900;
 	position: relative;
@@ -98,14 +141,14 @@
 
 #u83-4
 {
-	z-index: 11;
+	z-index: 17;
 	width: 230px;
 	min-height: 19px;
 	background-color: transparent;
+	line-height: 27px;
 	color: #FFFFFF;
 	font-size: 30px;
 	text-align: right;
-	line-height: 27px;
 	font-family: '__StratumNo2_5';
 	font-weight: 900;
 	position: relative;
@@ -116,14 +159,14 @@
 
 #u84-4
 {
-	z-index: 15;
+	z-index: 21;
 	width: 230px;
 	min-height: 19px;
 	background-color: transparent;
+	line-height: 27px;
 	color: #FFFFFF;
 	font-size: 30px;
 	text-align: left;
-	line-height: 27px;
 	font-family: '__StratumNo2_5';
 	font-weight: 900;
 	position: relative;
@@ -134,15 +177,15 @@
 
 #u85-4
 {
-	z-index: 19;
+	z-index: 25;
 	width: 260px;
 	min-height: 19px;
 	background-color: #FFFFFF;
 	background-color: rgba(255,255,255,0.15);
+	line-height: 14px;
 	color: #FFFFFF;
 	font-size: 16px;
 	text-align: right;
-	line-height: 14px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -183,15 +226,15 @@
 
 #u88-4
 {
-	z-index: 23;
+	z-index: 29;
 	width: 208px;
 	min-height: 19px;
 	background-color: #FFFFFF;
 	background-color: rgba(255,255,255,0.15);
+	line-height: 14px;
 	color: #FFFFFF;
 	font-size: 16px;
 	text-align: right;
-	line-height: 14px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -232,15 +275,15 @@
 
 #u90-4
 {
-	z-index: 27;
+	z-index: 33;
 	width: 200px;
 	min-height: 19px;
 	background-color: #FFFFFF;
 	background-color: rgba(255,255,255,0.15);
+	line-height: 14px;
 	color: #FFFFFF;
 	font-size: 16px;
 	text-align: left;
-	line-height: 14px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -299,6 +342,15 @@
 	src: url('../fonts/stratum2-black-webfont.eot');
 	src: local('☺'), url('../fonts/stratum2-black-webfont.woff') format('woff');
 	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__StratumNo2Bold_5';
+	src: url('../fonts/stratumno2-bold-webfont.eot');
+	src: local('☺'), url('../fonts/stratumno2-bold-webfont.woff') format('woff');
+	font-weight: 700;
 	font-style: normal;
 }
 
