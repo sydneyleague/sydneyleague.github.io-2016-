@@ -4,8 +4,8 @@
 
 .version.index /* version checker */
 {
-	color: #000003;
-	background-color: #66DB2E;
+	color: #0000E9;
+	background-color: #A3585F;
 }
 
 .html
@@ -97,8 +97,8 @@
 	min-height: 18px;
 	background-color: transparent;
 	line-height: 22px;
-	font-size: 24px;
 	color: #FFFFFF;
+	font-size: 24px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -329,6 +329,15 @@
 
 @font-face
 {
+	font-family: '__StratumNo2Bold_5';
+	src: url('../fonts/stratumno2-bold-webfont.eot');
+	src: local('☺'), url('../fonts/stratumno2-bold-webfont.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face
+{
 	font-family: '__Apercu Mono_5';
 	src: url('../fonts/apercu-mono-webfont.eot');
 	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
@@ -342,15 +351,6 @@
 	src: url('../fonts/stratum2-black-webfont.eot');
 	src: local('☺'), url('../fonts/stratum2-black-webfont.woff') format('woff');
 	font-weight: 900;
-	font-style: normal;
-}
-
-@font-face
-{
-	font-family: '__StratumNo2Bold_5';
-	src: url('../fonts/stratumno2-bold-webfont.eot');
-	src: local('☺'), url('../fonts/stratumno2-bold-webfont.woff') format('woff');
-	font-weight: 700;
 	font-style: normal;
 }
 

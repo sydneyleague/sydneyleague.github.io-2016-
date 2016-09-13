@@ -1,10 +1,10 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://mxnp.github.io/sl" resolutions="1x" timestamp="1473679811241">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://mxnp.github.io/sl" resolutions="1x" timestamp="1473728049082">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
     <file name="master_summer-pages.css" crc="369331055" ref="summer-2016"/>
     <file name="master_mcs-pages.css" crc="380724836" ref="mcs-matches:mcs-teams:mcs"/>
     <file name="summer-2016.css" crc="3804172970" ref="summer-2016"/>
-    <file name="index.css" crc="57072430" ref="index"/>
+    <file name="index.css" crc="3919796319" ref="index"/>
     <file name="mcs-matches.css" crc="37907813" ref="mcs-matches"/>
     <file name="mcs-teams.css" crc="407077921" ref="mcs-teams"/>
     <file name="mcs.css" crc="4246502777" ref="mcs"/>
@@ -20,8 +20,8 @@
     <file name="stratumno2-medium-webfont.eot" crc="3889206302"/>
   </folder>
   <folder name="assets">
-    <file name="sydleague2a.mp4" crc="4123751977" seo="true" mt="1473654842000"/>
     <file name="ncfdgwf8oed2.128.mp3" crc="202394077" seo="true" mt="1473609726000"/>
+    <file name="sydleague-w.mp4" crc="119670446" seo="true" mt="1473726975000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:mcs:mcs-matches:summer-2016:mcs-teams"/>
@@ -37,7 +37,7 @@
     <file name="sydleague.svg" crc="4108607956" ref="mcs:index"/>
     <file name="sydleague_poster_.png" crc="398313358" ref="index"/>
   </folder>
-  <file name="index.html" crc="358237740" seo="true" mt="1473679801932" redirect="true"/>
+  <file name="index.html" crc="513273789" seo="true" mt="1473727099608" redirect="true"/>
   <file name="mcs.html" crc="384044071" seo="true" mt="1473679584840" redirect="true"/>
   <file name="mcs-matches.html" crc="3793343978" seo="true" mt="1473666292240" redirect="true"/>
   <file name="summer-2016.html" crc="195266397" seo="true" mt="1473666292241" redirect="true"/>
