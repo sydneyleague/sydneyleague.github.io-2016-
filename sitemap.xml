@@ -13,6 +13,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://sydneyleague.github.io/assets/bg.jpg</loc>
+    <lastmod>2016-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://sydneyleague.github.io/images/ctlogowhlarge%20-%20gradient.png</loc>
     <lastmod>2016-09-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -50,6 +56,12 @@
   </url>
   <url>
     <loc>https://sydneyleague.github.io/mcs-teams.html</loc>
+    <lastmod>2016-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sydneyleague.github.io/events.html</loc>
     <lastmod>2016-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
