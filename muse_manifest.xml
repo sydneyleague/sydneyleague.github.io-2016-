@@ -1,10 +1,10 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://sydneyleague.github.io" resolutions="1x" timestamp="1473777610036">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://sydneyleague.github.io" resolutions="1x" timestamp="1473779027130">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
     <file name="master_summer-pages.css" crc="369331055" ref="summer-2016"/>
     <file name="master_mcs-pages.css" crc="3977738199" ref="mcs-matches:mcs-teams:mcs"/>
     <file name="summer-2016.css" crc="3922067821" ref="summer-2016"/>
-    <file name="index.css" crc="4244106946" ref="index"/>
+    <file name="index.css" crc="172872130" ref="index"/>
     <file name="mcs-matches.css" crc="364668171" ref="mcs-matches"/>
     <file name="mcs-teams.css" crc="450947968" ref="mcs-teams"/>
     <file name="mcs.css" crc="4104159838" ref="mcs"/>
@@ -37,7 +37,7 @@
     <file name="sydleague.svg" crc="4108607956" ref="mcs:index"/>
     <file name="sydleague_poster_.png" crc="379802772" ref="index"/>
   </folder>
-  <file name="index.html" crc="404710789" seo="true" mt="1473777605501" redirect="true"/>
+  <file name="index.html" crc="3758385442" seo="true" mt="1473779008156" redirect="true"/>
   <file name="mcs.html" crc="384044071" seo="true" mt="1473776201603" redirect="true"/>
   <file name="mcs-matches.html" crc="3793343978" seo="true" mt="1473776201605" redirect="true"/>
   <file name="summer-2016.html" crc="195266397" seo="true" mt="1473776201612" redirect="true"/>
