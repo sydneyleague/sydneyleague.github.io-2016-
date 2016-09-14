@@ -4,8 +4,8 @@
 
 .version.index /* version checker */
 {
-	color: #0000F3;
-	background-color: #23FD01;
+	color: #000011;
+	background-color: #5E4AB0;
 }
 
 .html
@@ -105,8 +105,8 @@
 	min-height: 52px;
 	background-color: transparent;
 	line-height: 29px;
-	font-size: 32px;
 	color: #FFFFFF;
+	font-size: 32px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -485,6 +485,15 @@
 	left: 1158px;
 }
 
+#u639-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 40px;
+	margin: 100px -10000px 0px 0px;
+}
+
 #u640-4
 {
 	z-index: 58;
@@ -495,7 +504,7 @@
 	left: 1240px;
 }
 
-#u639-4:hover,#u640-4:hover
+#u639-4.MuseLinkActive,#u640-4:hover
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -504,13 +513,13 @@
 	margin: 100px -10000px 0px 0px;
 }
 
-@font-face
+#u640-4.MuseLinkActive
 {
-	font-family: '__StratumNo2_5';
-	src: url('../fonts/stratum2-black-webfont.eot');
-	src: local('☺'), url('../fonts/stratum2-black-webfont.woff') format('woff');
-	font-weight: 900;
-	font-style: normal;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 40px;
+	margin: 100px -10000px 0px 0px;
 }
 
 @font-face
@@ -528,6 +537,15 @@
 	src: url('../fonts/stratumno2-bold-webfont.eot');
 	src: local('☺'), url('../fonts/stratumno2-bold-webfont.woff') format('woff');
 	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__StratumNo2_5';
+	src: url('../fonts/stratum2-black-webfont.eot');
+	src: local('☺'), url('../fonts/stratum2-black-webfont.woff') format('woff');
+	font-weight: 900;
 	font-style: normal;
 }
 

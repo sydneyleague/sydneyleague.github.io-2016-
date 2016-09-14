@@ -7,8 +7,8 @@
 {
 	background-color: transparent;
 	line-height: 14px;
-	font-size: 12px;
 	color: #FFFFFF;
+	font-size: 12px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -23,8 +23,8 @@
 {
 	background-color: transparent;
 	line-height: 14px;
-	font-size: 12px;
 	color: #FFFFFF;
+	font-size: 12px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -39,25 +39,35 @@
 {
 	background-color: transparent;
 	line-height: 14px;
-	font-size: 12px;
 	color: #FFFFFF;
+	font-size: 12px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
+}
+
+#u638-4.MuseLinkActive p,#u639-4:hover p
+{
+	text-decoration: underline;
 }
 
 #u640-4
 {
 	background-color: transparent;
 	line-height: 14px;
-	font-size: 12px;
 	color: #FFFFFF;
+	font-size: 12px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
 }
 
-#u638-4.MuseLinkActive p,#u639-4:hover p,#u640-4:hover p
+#u639-4.MuseLinkActive p,#u640-4:hover p
+{
+	text-decoration: underline;
+}
+
+#u640-4.MuseLinkActive p
 {
 	text-decoration: underline;
 }

@@ -1,0 +1,98 @@
+#u680
+{
+	background-color: #FFFFFF;
+	position: fixed;
+}
+
+#u688
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+}
+
+#u682
+{
+	background-color: transparent;
+	position: relative;
+}
+
+#u677-6
+{
+	background-color: transparent;
+	line-height: 14px;
+	font-size: 16px;
+	color: #F1A814;
+	font-family: '__StratumNo2Bold_5';
+	font-weight: 700;
+	position: fixed;
+}
+
+#u679
+{
+	border-width: 2px;
+	border-style: solid;
+	border-color: #F4BE52;
+	background-color: #FFFFFF;
+	position: fixed;
+}
+
+#u672-4
+{
+	background-color: transparent;
+	line-height: 16px;
+	font-size: 18px;
+	color: #F1A814;
+	font-family: '__StratumNo2Medium_5';
+	font-weight: 500;
+	position: fixed;
+}
+
+#u678-4
+{
+	background-color: transparent;
+	line-height: 16px;
+	font-size: 18px;
+	color: #F1A814;
+	font-family: '__StratumNo2Medium_5';
+	font-weight: 500;
+	position: fixed;
+}
+
+#u671-4
+{
+	background-color: transparent;
+	line-height: 16px;
+	font-size: 18px;
+	color: #F1A814;
+	font-family: '__StratumNo2Medium_5';
+	font-weight: 500;
+	position: fixed;
+}
+
+#u672-4:hover p,#u678-4:hover p,#u671-4:hover p
+{
+	color: #F19606;
+	visibility: inherit;
+	text-decoration: none;
+}
+
+#u673-4
+{
+	background-color: transparent;
+	line-height: 16px;
+	color: #F4BE52;
+	font-size: 18px;
+	text-align: center;
+	font-family: '__StratumNo2Medium_5';
+	font-weight: 500;
+	position: fixed;
+}
+
+#u677-6:hover p,#u673-4:hover p
+{
+	color: #F19606;
+	visibility: inherit;
+}
+
