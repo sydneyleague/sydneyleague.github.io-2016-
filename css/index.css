@@ -4,8 +4,8 @@
 
 .version.index /* version checker */
 {
-	color: #00000A;
-	background-color: #CF3D52;
+	color: #0000F3;
+	background-color: #23FD01;
 }
 
 .html
@@ -26,9 +26,32 @@
 	margin-right: auto;
 }
 
-#u415
+#u641,#u641-bw
 {
 	z-index: 2;
+	height: 800px;
+}
+
+#u401
+{
+	z-index: 3;
+	min-height: 360px;
+	background-color: #222222;
+	padding-bottom: 500px;
+}
+
+#u401_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1280px;
+	position: relative;
+	left: -100px;
+}
+
+#u415
+{
+	z-index: 4;
 	width: 400px;
 	min-height: 300px;
 	border-style: none;
@@ -37,11 +60,18 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 60px;
+	left: 100px;
+}
+
+#u401-bw
+{
+	z-index: 3;
+	min-height: 360px;
 }
 
 #u526
 {
-	z-index: 3;
+	z-index: 5;
 	min-height: 877px;
 	border-style: none;
 	border-color: transparent;
@@ -50,13 +80,13 @@
 
 #u526-bw
 {
-	z-index: 3;
+	z-index: 5;
 	min-height: 877px;
 }
 
 #u454
 {
-	z-index: 4;
+	z-index: 6;
 	width: 300px;
 	min-height: 35px;
 	border-style: none;
@@ -70,13 +100,13 @@
 
 #u459-6
 {
-	z-index: 5;
+	z-index: 7;
 	width: 110px;
 	min-height: 52px;
 	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 32px;
 	line-height: 29px;
+	font-size: 32px;
+	color: #FFFFFF;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -101,7 +131,7 @@
 
 #u460
 {
-	z-index: 11;
+	z-index: 13;
 	overflow: hidden;
 	position: relative;
 	width: 70px;
@@ -111,14 +141,14 @@
 
 #u83-4
 {
-	z-index: 12;
+	z-index: 14;
 	width: 274px;
 	min-height: 19px;
 	background-color: transparent;
+	line-height: 32px;
 	color: #FFFFFF;
 	font-size: 36px;
 	text-align: right;
-	line-height: 32px;
 	font-family: '__StratumNo2_5';
 	font-weight: 900;
 	position: relative;
@@ -129,14 +159,14 @@
 
 #u84-4
 {
-	z-index: 16;
+	z-index: 18;
 	width: 230px;
 	min-height: 19px;
 	background-color: transparent;
+	line-height: 22px;
 	color: #FFFFFF;
 	font-size: 24px;
 	text-align: left;
-	line-height: 22px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -146,15 +176,15 @@
 
 #u85-4
 {
-	z-index: 20;
+	z-index: 22;
 	width: 260px;
 	min-height: 19px;
 	background-color: #FFFFFF;
 	background-color: rgba(255,255,255,0.15);
+	line-height: 14px;
 	color: #FFFFFF;
 	font-size: 16px;
 	text-align: right;
-	line-height: 14px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -195,15 +225,15 @@
 
 #u88-4
 {
-	z-index: 24;
+	z-index: 26;
 	width: 208px;
 	min-height: 19px;
 	background-color: #FFFFFF;
 	background-color: rgba(255,255,255,0.15);
+	line-height: 14px;
 	color: #FFFFFF;
 	font-size: 16px;
 	text-align: right;
-	line-height: 14px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -244,15 +274,15 @@
 
 #u90-4
 {
-	z-index: 28;
+	z-index: 30;
 	width: 200px;
 	min-height: 16px;
 	background-color: #FFFFFF;
 	background-color: rgba(255,255,255,0.15);
+	line-height: 13px;
 	color: #FFFFFF;
 	font-size: 14px;
 	text-align: left;
-	line-height: 13px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -292,14 +322,14 @@
 
 #u466-4
 {
-	z-index: 32;
+	z-index: 34;
 	width: 230px;
 	min-height: 19px;
 	background-color: transparent;
+	line-height: 22px;
 	color: #FFFFFF;
 	font-size: 24px;
 	text-align: left;
-	line-height: 22px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -310,15 +340,15 @@
 
 #u467-4
 {
-	z-index: 36;
+	z-index: 38;
 	width: 232px;
 	min-height: 16px;
 	background-color: #FFFFFF;
 	background-color: rgba(255,255,255,0.15);
+	line-height: 13px;
 	color: #FFFFFF;
 	font-size: 14px;
 	text-align: left;
-	line-height: 13px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -357,111 +387,16 @@
 	text-decoration: underline;
 }
 
-#u514-4
-{
-	z-index: 40;
-	width: 32px;
-	min-height: 14px;
-	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 12px;
-	line-height: 14px;
-	font-family: '__Apercu Mono_5';
-	font-weight: 400;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 100px;
-	left: 1000px;
-}
-
-#u514-4.MuseLinkActive
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 14px;
-	width: 32px;
-	margin: 100px -10000px 0px 0px;
-}
-
-#u515-4
-{
-	z-index: 44;
-	width: 46px;
-	min-height: 14px;
-	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 12px;
-	line-height: 14px;
-	font-family: '__Apercu Mono_5';
-	font-weight: 400;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 100px;
-	left: 1072px;
-}
-
-#u515-4:hover
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 14px;
-	width: 46px;
-	margin: 100px -10000px 0px 0px;
-}
-
-#u516-4
-{
-	z-index: 48;
-	width: 40px;
-	min-height: 14px;
-	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 12px;
-	line-height: 14px;
-	font-family: '__Apercu Mono_5';
-	font-weight: 400;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 100px;
-	left: 1158px;
-}
-
-#u517-4
-{
-	z-index: 52;
-	width: 40px;
-	min-height: 14px;
-	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 12px;
-	line-height: 14px;
-	font-family: '__Apercu Mono_5';
-	font-weight: 400;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 100px;
-	left: 1240px;
-}
-
-#u516-4:hover,#u517-4:hover
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 14px;
-	width: 40px;
-	margin: 100px -10000px 0px 0px;
-}
-
 #u530-4
 {
-	z-index: 56;
+	z-index: 42;
 	width: 244px;
 	min-height: 14px;
 	background-color: transparent;
+	line-height: 12px;
 	color: #FFFFFF;
 	font-size: 10px;
 	text-align: center;
-	line-height: 12px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -479,9 +414,94 @@
 	margin: 832px -10000px 0px 0px;
 }
 
-#u467-4:active p,#u514-4.MuseLinkActive p,#u515-4:hover p,#u516-4:hover p,#u517-4:hover p,#u530-4:hover p
+#u467-4:active p,#u530-4:hover p
 {
 	text-decoration: underline;
+}
+
+#u637-4
+{
+	z-index: 46;
+	width: 32px;
+	min-height: 14px;
+	margin-right: -10000px;
+	margin-top: 100px;
+	left: 1000px;
+}
+
+#u637-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 32px;
+	margin: 100px -10000px 0px 0px;
+}
+
+#u637-4.MuseLinkActive
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 32px;
+	margin: 100px -10000px 0px 0px;
+}
+
+#u638-4
+{
+	z-index: 50;
+	width: 46px;
+	min-height: 14px;
+	margin-right: -10000px;
+	margin-top: 100px;
+	left: 1072px;
+}
+
+#u638-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 46px;
+	margin: 100px -10000px 0px 0px;
+}
+
+#u638-4.MuseLinkActive
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 46px;
+	margin: 100px -10000px 0px 0px;
+}
+
+#u639-4
+{
+	z-index: 54;
+	width: 40px;
+	min-height: 14px;
+	margin-right: -10000px;
+	margin-top: 100px;
+	left: 1158px;
+}
+
+#u640-4
+{
+	z-index: 58;
+	width: 40px;
+	min-height: 14px;
+	margin-right: -10000px;
+	margin-top: 100px;
+	left: 1240px;
+}
+
+#u639-4:hover,#u640-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 40px;
+	margin: 100px -10000px 0px 0px;
 }
 
 @font-face

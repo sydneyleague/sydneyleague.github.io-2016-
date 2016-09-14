@@ -4,8 +4,8 @@
 
 .version.events /* version checker */
 {
-	color: #0000E9;
-	background-color: #FA285E;
+	color: #0000FD;
+	background-color: #F189AD;
 }
 
 .html
@@ -26,22 +26,28 @@
 	margin-right: auto;
 }
 
-#u553
+#u641,#u641-bw
 {
 	z-index: 2;
+	height: 800px;
+}
+
+#u553
+{
+	z-index: 3;
 	height: 860px;
 	background-color: #222222;
 }
 
 #u553-bw
 {
-	z-index: 2;
+	z-index: 3;
 	height: 860px;
 }
 
 #u593
 {
-	z-index: 3;
+	z-index: 4;
 	min-height: 860px;
 	border-style: none;
 	border-color: transparent;
@@ -50,13 +56,13 @@
 
 #u593-bw
 {
-	z-index: 3;
+	z-index: 4;
 	min-height: 860px;
 }
 
 #u557
 {
-	z-index: 4;
+	z-index: 5;
 	min-height: 860px;
 	border-style: none;
 	border-color: transparent;
@@ -65,13 +71,13 @@
 
 #u557-bw
 {
-	z-index: 4;
+	z-index: 5;
 	min-height: 860px;
 }
 
 #u566-4
 {
-	z-index: 5;
+	z-index: 6;
 	width: 230px;
 	min-height: 19px;
 	background-color: transparent;
@@ -88,7 +94,7 @@
 
 #u582-4
 {
-	z-index: 9;
+	z-index: 10;
 	width: 170px;
 	min-height: 16px;
 	background-color: #FFFFFF;
@@ -136,7 +142,7 @@
 
 #u578-4
 {
-	z-index: 13;
+	z-index: 14;
 	width: 230px;
 	min-height: 19px;
 	background-color: transparent;
@@ -154,7 +160,7 @@
 
 #u579-4
 {
-	z-index: 17;
+	z-index: 18;
 	width: 160px;
 	min-height: 16px;
 	background-color: #FFFFFF;
@@ -203,7 +209,7 @@
 
 #u580-4
 {
-	z-index: 21;
+	z-index: 22;
 	width: 230px;
 	min-height: 19px;
 	background-color: transparent;
@@ -221,7 +227,7 @@
 
 #u581-4
 {
-	z-index: 25;
+	z-index: 26;
 	width: 170px;
 	min-height: 16px;
 	background-color: #FFFFFF;
@@ -270,12 +276,12 @@
 
 #u584-4
 {
-	z-index: 29;
+	z-index: 30;
 	width: 100px;
 	min-height: 16px;
 	background-color: transparent;
-	color: #FFFFFF;
 	font-size: 14px;
+	color: #FFFFFF;
 	font-family: '__StratumNo2Regular_5';
 	font-weight: 400;
 	position: relative;
@@ -285,12 +291,12 @@
 
 #u585-4
 {
-	z-index: 33;
+	z-index: 34;
 	width: 100px;
 	min-height: 16px;
 	background-color: transparent;
-	color: #FFFFFF;
 	font-size: 14px;
+	color: #FFFFFF;
 	font-family: '__StratumNo2Regular_5';
 	font-weight: 400;
 	position: relative;
@@ -300,7 +306,7 @@
 
 #u586-4
 {
-	z-index: 37;
+	z-index: 38;
 	width: 140px;
 	min-height: 16px;
 	background-color: #FFFFFF;
@@ -346,14 +352,19 @@
 	text-decoration: underline;
 }
 
+#u586-4:active p
+{
+	text-decoration: underline;
+}
+
 #u589-4
 {
-	z-index: 41;
+	z-index: 42;
 	width: 100px;
 	min-height: 16px;
 	background-color: transparent;
-	color: #FFFFFF;
 	font-size: 14px;
+	color: #FFFFFF;
 	font-family: '__StratumNo2Regular_5';
 	font-weight: 400;
 	position: relative;
@@ -364,12 +375,12 @@
 
 #u590-4
 {
-	z-index: 45;
+	z-index: 46;
 	width: 100px;
 	min-height: 16px;
 	background-color: transparent;
-	color: #FFFFFF;
 	font-size: 14px;
+	color: #FFFFFF;
 	font-family: '__StratumNo2Regular_5';
 	font-weight: 400;
 	position: relative;
@@ -378,15 +389,100 @@
 	left: 650px;
 }
 
+#u637-4
+{
+	z-index: 50;
+	width: 32px;
+	min-height: 14px;
+	margin-right: -10000px;
+	margin-top: 100px;
+	left: 1000px;
+}
+
+#u637-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 32px;
+	margin: 100px -10000px 0px 0px;
+}
+
+#u637-4.MuseLinkActive
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 32px;
+	margin: 100px -10000px 0px 0px;
+}
+
+#u638-4
+{
+	z-index: 54;
+	width: 46px;
+	min-height: 14px;
+	margin-right: -10000px;
+	margin-top: 100px;
+	left: 1072px;
+}
+
+#u638-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 46px;
+	margin: 100px -10000px 0px 0px;
+}
+
+#u638-4.MuseLinkActive
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 46px;
+	margin: 100px -10000px 0px 0px;
+}
+
+#u639-4
+{
+	z-index: 58;
+	width: 40px;
+	min-height: 14px;
+	margin-right: -10000px;
+	margin-top: 100px;
+	left: 1158px;
+}
+
+#u640-4
+{
+	z-index: 62;
+	width: 40px;
+	min-height: 14px;
+	margin-right: -10000px;
+	margin-top: 100px;
+	left: 1240px;
+}
+
+#u639-4:hover,#u640-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 14px;
+	width: 40px;
+	margin: 100px -10000px 0px 0px;
+}
+
 #u569-4
 {
-	z-index: 49;
+	z-index: 66;
 	width: 40px;
 	min-height: 27px;
 	background-color: transparent;
 	line-height: 32px;
-	color: #FFFFFF;
 	font-size: 36px;
+	color: #FFFFFF;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -397,7 +493,7 @@
 
 #u567
 {
-	z-index: 53;
+	z-index: 70;
 	overflow: hidden;
 	position: relative;
 	width: 36px;
@@ -405,104 +501,13 @@
 	margin-top: 89px;
 }
 
-#u546-4
+@font-face
 {
-	z-index: 54;
-	width: 32px;
-	min-height: 14px;
-	background-color: transparent;
-	line-height: 14px;
-	color: #FFFFFF;
-	font-size: 12px;
 	font-family: '__Apercu Mono_5';
+	src: url('../fonts/apercu-mono-webfont.eot');
+	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
 	font-weight: 400;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 100px;
-	left: 1000px;
-}
-
-#u546-4:hover
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 14px;
-	width: 32px;
-	margin: 100px -10000px 0px 0px;
-}
-
-#u549-4
-{
-	z-index: 58;
-	width: 46px;
-	min-height: 14px;
-	background-color: transparent;
-	line-height: 14px;
-	color: #FFFFFF;
-	font-size: 12px;
-	font-family: '__Apercu Mono_5';
-	font-weight: 400;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 100px;
-	left: 1072px;
-}
-
-#u549-4:hover
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 14px;
-	width: 46px;
-	margin: 100px -10000px 0px 0px;
-}
-
-#u548-4
-{
-	z-index: 62;
-	width: 40px;
-	min-height: 14px;
-	background-color: transparent;
-	line-height: 14px;
-	color: #FFFFFF;
-	font-size: 12px;
-	font-family: '__Apercu Mono_5';
-	font-weight: 400;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 100px;
-	left: 1158px;
-}
-
-#u547-4
-{
-	z-index: 66;
-	width: 40px;
-	min-height: 14px;
-	background-color: transparent;
-	line-height: 14px;
-	color: #FFFFFF;
-	font-size: 12px;
-	font-family: '__Apercu Mono_5';
-	font-weight: 400;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 100px;
-	left: 1240px;
-}
-
-#u548-4:hover,#u547-4:hover
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 14px;
-	width: 40px;
-	margin: 100px -10000px 0px 0px;
-}
-
-#u586-4:active p,#u546-4:hover p,#u549-4:hover p,#u548-4:hover p,#u547-4:hover p
-{
-	text-decoration: underline;
+	font-style: normal;
 }
 
 @font-face
@@ -520,15 +525,6 @@
 	src: url('../fonts/stratumno2-bold-webfont.eot');
 	src: local('☺'), url('../fonts/stratumno2-bold-webfont.woff') format('woff');
 	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face
-{
-	font-family: '__Apercu Mono_5';
-	src: url('../fonts/apercu-mono-webfont.eot');
-	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
-	font-weight: 400;
 	font-style: normal;
 }
 
