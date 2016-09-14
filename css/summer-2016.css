@@ -5,7 +5,7 @@
 .version.summer_2016 /* version checker */
 {
 	color: #0000E9;
-	background-color: #C6016D;
+	background-color: #5434D4;
 }
 
 .html
@@ -172,10 +172,10 @@
 	min-height: 39px;
 	border-color: #999999;
 	background-color: transparent;
+	line-height: 39px;
 	color: #F77543;
 	font-size: 28px;
 	text-align: center;
-	line-height: 39px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -236,10 +236,10 @@
 	min-height: 39px;
 	border-color: #999999;
 	background-color: transparent;
+	line-height: 39px;
 	color: #F77543;
 	font-size: 28px;
 	text-align: center;
-	line-height: 39px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -311,10 +311,10 @@
 	min-height: 39px;
 	border-color: #999999;
 	background-color: transparent;
+	line-height: 39px;
 	color: #F77543;
 	font-size: 28px;
 	text-align: center;
-	line-height: 39px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -405,8 +405,8 @@
 	width: 155px;
 	min-height: 10px;
 	background-color: transparent;
-	font-size: 10px;
 	line-height: 9px;
+	font-size: 10px;
 	color: #222222;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
@@ -420,10 +420,10 @@
 	width: 70px;
 	min-height: 10px;
 	background-color: transparent;
+	line-height: 9px;
 	color: #222222;
 	font-size: 10px;
 	text-align: right;
-	line-height: 9px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -437,9 +437,9 @@
 	width: 220px;
 	min-height: 22px;
 	background-color: transparent;
+	line-height: 20px;
 	color: #00BAE1;
 	font-size: 20px;
-	line-height: 20px;
 	letter-spacing: 0px;
 	font-family: '__StratumNo2Medium_5';
 	font-weight: 500;
@@ -463,9 +463,9 @@
 	width: 220px;
 	min-height: 22px;
 	background-color: transparent;
+	line-height: 20px;
 	color: #00BAE1;
 	font-size: 20px;
-	line-height: 20px;
 	letter-spacing: 0px;
 	font-family: '__StratumNo2Medium_5';
 	font-weight: 500;
@@ -479,10 +479,10 @@
 	width: 39px;
 	min-height: 10px;
 	background-color: transparent;
+	line-height: 9px;
 	color: #222222;
 	font-size: 10px;
 	text-align: right;
-	line-height: 9px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -524,15 +524,6 @@
 
 @font-face
 {
-	font-family: '__StratumNo2Bold_5';
-	src: url('../fonts/stratumno2-bold-webfont.eot');
-	src: local('☺'), url('../fonts/stratumno2-bold-webfont.woff') format('woff');
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face
-{
 	font-family: '__StratumNo2Medium_5';
 	src: url('../fonts/stratumno2-medium-webfont.eot');
 	src: local('☺'), url('../fonts/stratumno2-medium-webfont.woff') format('woff');
@@ -546,6 +537,15 @@
 	src: url('../fonts/apercu-mono-webfont.eot');
 	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
 	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__StratumNo2Bold_5';
+	src: url('../fonts/stratumno2-bold-webfont.eot');
+	src: local('☺'), url('../fonts/stratumno2-bold-webfont.woff') format('woff');
+	font-weight: 700;
 	font-style: normal;
 }
 
