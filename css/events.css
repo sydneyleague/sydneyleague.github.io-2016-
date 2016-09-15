@@ -4,8 +4,8 @@
 
 .version.events /* version checker */
 {
-	color: #00001E;
-	background-color: #12A221;
+	color: #000019;
+	background-color: #3AD6E5;
 }
 
 .html
@@ -352,11 +352,6 @@
 	text-decoration: underline;
 }
 
-#u586-4:active p
-{
-	text-decoration: underline;
-}
-
 #u589-4
 {
 	z-index: 42;
@@ -410,7 +405,7 @@
 #u691-6
 {
 	z-index: 54;
-	width: 130px;
+	width: 140px;
 	min-height: 36px;
 	background-color: transparent;
 	color: #FFFFFF;
@@ -521,9 +516,94 @@
 	left: 975px;
 }
 
-#u637-4
+#u790-4
 {
 	z-index: 86;
+	width: 230px;
+	min-height: 19px;
+	background-color: transparent;
+	line-height: 22px;
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: left;
+	font-family: '__StratumNo2Bold_5';
+	font-weight: 700;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 590px;
+}
+
+#u791-4
+{
+	z-index: 90;
+	width: 160px;
+	min-height: 16px;
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.15);
+	line-height: 11px;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: left;
+	font-family: '__Apercu Mono_5';
+	font-weight: 400;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 700px;
+	-pie-background: rgba(255,255,255,0.15);
+}
+
+#u791-4:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.25);
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 16px;
+	width: 160px;
+	margin: 700px -10000px 0px 0px;
+	-pie-background: rgba(255,255,255,0.25);
+}
+
+#u791-4:active
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.4);
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 16px;
+	width: 160px;
+	margin: 700px -10000px 0px 0px;
+	-pie-background: rgba(255,255,255,0.4);
+}
+
+#u586-4:active p,#u791-4:hover p
+{
+	text-decoration: underline;
+}
+
+#u791-4:active p
+{
+	text-decoration: underline;
+}
+
+#u792-4
+{
+	z-index: 94;
+	width: 100px;
+	min-height: 16px;
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: '__StratumNo2Regular_5';
+	font-weight: 400;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 670px;
+}
+
+#u637-4
+{
+	z-index: 98;
 	width: 32px;
 	min-height: 14px;
 	margin-right: -10000px;
@@ -551,7 +631,7 @@
 
 #u638-4
 {
-	z-index: 90;
+	z-index: 102;
 	width: 46px;
 	min-height: 14px;
 	margin-right: -10000px;
@@ -579,7 +659,7 @@
 
 #u639-4
 {
-	z-index: 94;
+	z-index: 106;
 	width: 40px;
 	min-height: 14px;
 	margin-right: -10000px;
@@ -598,7 +678,7 @@
 
 #u640-4
 {
-	z-index: 98;
+	z-index: 110;
 	width: 40px;
 	min-height: 14px;
 	margin-right: -10000px;
@@ -626,13 +706,13 @@
 
 #u569-4
 {
-	z-index: 102;
+	z-index: 114;
 	width: 40px;
 	min-height: 27px;
 	background-color: transparent;
-	line-height: 32px;
 	color: #FFFFFF;
 	font-size: 36px;
+	line-height: 32px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -643,7 +723,7 @@
 
 #u567
 {
-	z-index: 106;
+	z-index: 118;
 	overflow: hidden;
 	position: relative;
 	width: 36px;
@@ -653,9 +733,9 @@
 
 @font-face
 {
-	font-family: '__StratumNo2Regular_5';
-	src: url('../fonts/stratumno2-regular-webfont.eot');
-	src: local('☺'), url('../fonts/stratumno2-regular-webfont.woff') format('woff');
+	font-family: '__Apercu Mono_5';
+	src: url('../fonts/apercu-mono-webfont.eot');
+	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
 	font-weight: 400;
 	font-style: normal;
 }
@@ -671,9 +751,9 @@
 
 @font-face
 {
-	font-family: '__Apercu Mono_5';
-	src: url('../fonts/apercu-mono-webfont.eot');
-	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
+	font-family: '__StratumNo2Regular_5';
+	src: url('../fonts/stratumno2-regular-webfont.eot');
+	src: local('☺'), url('../fonts/stratumno2-regular-webfont.woff') format('woff');
 	font-weight: 400;
 	font-style: normal;
 }

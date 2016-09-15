@@ -1,19 +1,20 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://sydneyleague.github.io" resolutions="1x" timestamp="1473848830182">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://sydneyleague.github.io" resolutions="1x" timestamp="1473939714360">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
     <file name="master_summer-pages.css" crc="78978051" ref="summer-2016"/>
     <file name="summer-2016.css" crc="3914609876" ref="summer-2016"/>
-    <file name="index.css" crc="291392176" ref="index"/>
+    <file name="index.css" crc="363835814" ref="index"/>
     <file name="mcs-matches.css" crc="189530580" ref="mcs-matches"/>
     <file name="mcs-teams.css" crc="4095177295" ref="mcs-teams"/>
     <file name="mcs.css" crc="137884247" ref="mcs"/>
-    <file name="events.css" crc="504537633" ref="events"/>
-    <file name="master_a-master.css" crc="99264747" ref="events:index:about:teams"/>
+    <file name="events.css" crc="423286501" ref="events"/>
+    <file name="master_a-master.css" crc="4125431669" ref="events:index:about:teams:signup"/>
     <file name="master_mcs-cs.css" crc="380724836" ref="mcs:mcs-teams:mcs-matches"/>
     <file name="master_mcs-rs.css" crc="4150774166" ref="mcs-rs"/>
     <file name="mcs-rs.css" crc="143840598" ref="mcs-rs"/>
     <file name="about.css" crc="3799415793" ref="about"/>
     <file name="teams.css" crc="409515934" ref="teams"/>
+    <file name="signup.css" crc="4063311187" ref="signup"/>
   </folder>
   <folder name="fonts">
     <file name="apercu-mono-webfont.woff" crc="374742191"/>
@@ -33,12 +34,12 @@
     <file name="bg.jpg" crc="4150908469" seo="true" mt="1473788543000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:mcs:mcs-matches:summer-2016:mcs-teams:events:mcs-rs:about:teams"/>
-    <file name="museutils.js" crc="183364071" ref="index:mcs:mcs-matches:summer-2016:mcs-teams:events:mcs-rs:about:teams"/>
-    <file name="jquery.watch.js" crc="71412426" ref="index:mcs:mcs-matches:summer-2016:mcs-teams:events:mcs-rs:about:teams"/>
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:mcs:mcs-matches:summer-2016:mcs-teams:events:mcs-rs:about:teams:signup"/>
+    <file name="museutils.js" crc="183364071" ref="index:mcs:mcs-matches:summer-2016:mcs-teams:events:mcs-rs:about:teams:signup"/>
+    <file name="jquery.watch.js" crc="71412426" ref="index:mcs:mcs-matches:summer-2016:mcs-teams:events:mcs-rs:about:teams:signup"/>
     <file name="webpro.js" crc="3803554875" ref="mcs-matches:summer-2016"/>
     <file name="musewpdisclosure.js" crc="3993616448" ref="mcs-matches:summer-2016"/>
-    <file name="pie.js" crc="3827607177" ref="index:events:about:teams"/>
+    <file name="pie.js" crc="3827607177" ref="index:events:about:teams:signup"/>
   </folder>
   <folder name="images">
     <file name="ctlogowhlarge - gradient.png" crc="4211089432" seo="true" ref="mcs:mcs-matches:mcs-teams"/>
@@ -47,13 +48,14 @@
     <file name="sydleague_poster_.png" crc="379802772" ref="index"/>
     <file name="rank20_46f1e167.png" crc="4018129847" seo="true" ref="mcs-rs"/>
   </folder>
-  <file name="index.html" crc="4179459289" seo="true" mt="1473848822838" redirect="true"/>
+  <file name="index.html" crc="4161754999" seo="true" mt="1473939707239" redirect="true"/>
   <file name="mcs.html" crc="48325323" seo="true" mt="1473825230723" redirect="true"/>
   <file name="mcs-matches.html" crc="3988909735" seo="true" mt="1473825230720" redirect="true"/>
   <file name="summer-2016.html" crc="195266397" seo="true" mt="1473823986278" redirect="true"/>
   <file name="mcs-teams.html" crc="3994529097" seo="true" mt="1473825242885" redirect="true"/>
-  <file name="events.html" crc="4239746685" seo="true" mt="1473848691837" redirect="true"/>
+  <file name="events.html" crc="15475583" seo="true" mt="1473938710720" redirect="true"/>
   <file name="mcs-rs.html" crc="496648063" seo="true" mt="1473825230719" redirect="true"/>
   <file name="about.html" crc="316909334" seo="true" mt="1473848783144" redirect="true"/>
   <file name="teams.html" crc="8623767" seo="true" mt="1473848691837" redirect="true"/>
+  <file name="signup.html" crc="25787669" seo="true" mt="1473939542548" redirect="true"/>
 </manifest>

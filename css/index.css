@@ -4,8 +4,8 @@
 
 .version.index /* version checker */
 {
-	color: #000011;
-	background-color: #5E4AB0;
+	color: #000015;
+	background-color: #AFB1A6;
 }
 
 .html
@@ -104,9 +104,9 @@
 	width: 110px;
 	min-height: 52px;
 	background-color: transparent;
-	line-height: 29px;
 	color: #FFFFFF;
 	font-size: 32px;
+	line-height: 29px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -414,14 +414,62 @@
 	margin: 832px -10000px 0px 0px;
 }
 
-#u467-4:active p,#u530-4:hover p
+#u816-4
+{
+	z-index: 46;
+	width: 128px;
+	min-height: 16px;
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.15);
+	line-height: 13px;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	font-family: '__Apercu Mono_5';
+	font-weight: 400;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 824px;
+	-pie-background: rgba(255,255,255,0.15);
+}
+
+#u816-4:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.25);
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 16px;
+	width: 128px;
+	margin: 824px -10000px 0px 0px;
+	-pie-background: rgba(255,255,255,0.25);
+}
+
+#u816-4:active
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.4);
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 16px;
+	width: 128px;
+	margin: 824px -10000px 0px 0px;
+	-pie-background: rgba(255,255,255,0.4);
+}
+
+#u467-4:active p,#u530-4:hover p,#u816-4:hover p
+{
+	text-decoration: underline;
+}
+
+#u816-4:active p
 {
 	text-decoration: underline;
 }
 
 #u637-4
 {
-	z-index: 46;
+	z-index: 50;
 	width: 32px;
 	min-height: 14px;
 	margin-right: -10000px;
@@ -449,7 +497,7 @@
 
 #u638-4
 {
-	z-index: 50;
+	z-index: 54;
 	width: 46px;
 	min-height: 14px;
 	margin-right: -10000px;
@@ -477,7 +525,7 @@
 
 #u639-4
 {
-	z-index: 54;
+	z-index: 58;
 	width: 40px;
 	min-height: 14px;
 	margin-right: -10000px;
@@ -496,7 +544,7 @@
 
 #u640-4
 {
-	z-index: 58;
+	z-index: 62;
 	width: 40px;
 	min-height: 14px;
 	margin-right: -10000px;
@@ -533,19 +581,19 @@
 
 @font-face
 {
-	font-family: '__StratumNo2Bold_5';
-	src: url('../fonts/stratumno2-bold-webfont.eot');
-	src: local('☺'), url('../fonts/stratumno2-bold-webfont.woff') format('woff');
-	font-weight: 700;
+	font-family: '__StratumNo2_5';
+	src: url('../fonts/stratum2-black-webfont.eot');
+	src: local('☺'), url('../fonts/stratum2-black-webfont.woff') format('woff');
+	font-weight: 900;
 	font-style: normal;
 }
 
 @font-face
 {
-	font-family: '__StratumNo2_5';
-	src: url('../fonts/stratum2-black-webfont.eot');
-	src: local('☺'), url('../fonts/stratum2-black-webfont.woff') format('woff');
-	font-weight: 900;
+	font-family: '__StratumNo2Bold_5';
+	src: url('../fonts/stratumno2-bold-webfont.eot');
+	src: local('☺'), url('../fonts/stratumno2-bold-webfont.woff') format('woff');
+	font-weight: 700;
 	font-style: normal;
 }
 

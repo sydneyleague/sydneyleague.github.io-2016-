@@ -20,25 +20,25 @@
   </url>
   <url>
     <loc>https://sydneyleague.github.io/images/ctlogowhlarge%20-%20gradient.png</loc>
-    <lastmod>2016-09-14</lastmod>
+    <lastmod>2016-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://sydneyleague.github.io/images/scl%20summer%20mount%20logo%20test%20-%20grad.png</loc>
-    <lastmod>2016-09-14</lastmod>
+    <lastmod>2016-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://sydneyleague.github.io/images/rank20_46f1e167.png</loc>
-    <lastmod>2016-09-14</lastmod>
+    <lastmod>2016-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://sydneyleague.github.io/index.html</loc>
-    <lastmod>2016-09-14</lastmod>
+    <lastmod>2016-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -68,7 +68,7 @@
   </url>
   <url>
     <loc>https://sydneyleague.github.io/events.html</loc>
-    <lastmod>2016-09-14</lastmod>
+    <lastmod>2016-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -87,6 +87,12 @@
   <url>
     <loc>https://sydneyleague.github.io/teams.html</loc>
     <lastmod>2016-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sydneyleague.github.io/signup.html</loc>
+    <lastmod>2016-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
