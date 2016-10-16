@@ -3,484 +3,82 @@
  <head>
 
   <script type="text/javascript">
-   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.watch.js", "index.css"], "outOfDate":[]};
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musepolyfill.bgsize.js", "index.css"], "outOfDate":[]};
 </script>
   
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-  <meta name="description" content="Sydney League is the new esports collective brought to you by the team behind SCL and the 2016 Sydney Technical H.S. SRC Championships by TteSPORTS"/>
   <meta name="generator" content="2015.0.0.309"/>
-  <title>Sydney League</title>
+  <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?4052507572"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?4125431669"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?363835814" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_home.css?4120259411"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?285174438" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className += ' js';
 </script>
     <!--custom head HTML-->
-  <meta name="description" content="Sydney League is the new esports collective brought to you by the team behind SCL and the 2016 Sydney Technical H.S. SRC Championships by TteSPORTS">
-<meta name="author" content="Copyright © 2016 Sydney League | Sam Jiang">
-<meta name="keywords" content="Sydney League SCL Sydney Tech">
-  <!--HTML Widget code-->
+  <style>
+html, body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+     height: auto;
+     min-height: 100%;
+  }
+
+body {
+	background: linear-gradient(90deg, rgba(255,35,98,0.8), rgba(240,128,0,0.8), rgba(255,0,255,0.8), rgba(45,175,230,0.8), rgba(62,35,255,0.8));
+	background-size: 1000% 1000%;
+	-webkit-animation: gradient 60s ease infinite;
+	-moz-animation: gradient 60s ease infinite;
+	animation: gradient 60s ease infinite;
+background-
+background-attachment: scroll;
+}
+	
     
-<style>
-
-.audioplayer
-{
-	height: 2.5em; /* 40 */
-	position: relative;
-	z-index: 1;
-}
-	.audioplayer-mini
-	{
-		width: 2.5em; /* 40 */
-		margin: 0 auto;
+	@-webkit-keyframes gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
 	}
-	.audioplayer > div
-	{
-		position: absolute;
+	@-moz-keyframes gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
 	}
-.audioplayer {
-    color: #FFFFFF;
-	background: transparent;
-}
-    
-.audioplayer-playpause
-{
-	width: 2.5em; /* 40 */
-	height: 100%;
-	text-align: left;
-	text-indent: -9999px;
-	cursor: pointer;
-	z-index: 2;
-	top: 0;
-	left: 0;
-}
-	.audioplayer-mini .audioplayer-playpause
-	{
-		width: 100%;
+	@keyframes gradient { 
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
 	}
-    
-    /* Color */
-	.audioplayer-playpause:hover,
-	.audioplayer-playpause:focus
-	{
-		background-color: 222222;
-	}
-	.audioplayer-playpause a
-	{
-		display: block;
-	}
-
-	.audioplayer:not(.audioplayer-playing) .audioplayer-playpause a
-	{
-		width: 0;
-		height: 0;
-		border: 0.5em solid transparent; /* 8 */
-		border-right: none;
-		border-left-color: #FFFFFF;
-		content: '';
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		margin: -0.5em 0 0 -0.25em; /* 8 4 */
-	}
-
-	.audioplayer-playing .audioplayer-playpause a
-	{
-		width: 0.75em; /* 12 */
-		height: 0.75em; /* 12 */
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		margin: -0.375em 0 0 -0.375em; /* 6 */
-	}
-    
-		.audioplayer-playing .audioplayer-playpause a:before,
-		.audioplayer-playing .audioplayer-playpause a:after
-		{
-			width: 40%;
-			height: 100%;
-			background-color: #FFFFFF;
-			content: '';
-			position: absolute;
-			top: 0;
-		}
-		.audioplayer-playing .audioplayer-playpause a:before
-		{
-			left: 0;
-		}
-		.audioplayer-playing .audioplayer-playpause a:after
-		{
-			right: 0;
-		}
-        
-        
-.audioplayer-time
-{
-	width: 4.375em; /* 70 */
-	height: 100%;
-	line-height: 2.5em; /* 40 */
-	text-align: center;
-	z-index: 2;
-	top: 0;
-}
-	.audioplayer-time-current
-	{
-		border-left: 1px solid #FFFFFF;
-		left: 2.5em; /* 40 */
-	}
-	.audioplayer-time-duration
-	{
-		right: 2.5em; /* 40 */
-	}
-		.audioplayer-novolume .audioplayer-time-duration
-		{
-			border-right: 0;
-			right: 0;
-		}
-        
-       
-.audioplayer-bar
-{
-	height: 0.875em; /* 14 */
-	background-color: #222222;
-	cursor: pointer;
-	z-index: 1;
-	top: 50%;
-	right: 6.875em; /* 110 */
-	left: 6.875em; /* 110 */
-	margin-top: -0.438em; /* 7 */
-}
-	.audioplayer-novolume .audioplayer-bar
-	{
-		right: 4.375em; /* 70 */
-	}
-	.audioplayer-bar div
-	{
-		width: 0;
-		height: 100%;
-		position: absolute;
-		left: 0;
-		top: 0;
-	}
-    
-	.audioplayer-bar-loaded
-	{
-		background-color: #3C3C3C;
-		z-index: 1;
-	}
-
-	.audioplayer-bar-played
-	{
-        /* Accent Color */
-		background: #FFFFFF;
-		z-index: 2;
-	}
-
-.audioplayer-volume
-{
-	width: 2.5em; /* 40 */
-	height: 100%;
-	border-left: 1px solid #FFFFFF;
-	text-align: left;
-	text-indent: -9999px;
-	cursor: pointer;
-	z-index: 2;
-	top: 0;
-	right: 0;
-}
-
-
-	.audioplayer-volume:hover,
-	.audioplayer-volume:focus
-	{
-		background-color: #222222;
-        
-
-	}
-	.audioplayer-volume-button
-	{
-		width: 100%;
-		height: 100%;
-	}
-
-
-		.audioplayer-volume-button a
-		{
-			width: 0.313em; /* 5 */
-			height: 0.375em; /* 6 */
-			background-color: #FFFFFF;
-			display: block;
-			position: relative;
-			z-index: 1;
-			top: 40%;
-			left: 35%;
-		}
-			.audioplayer-volume-button a:before,
-			.audioplayer-volume-button a:after
-			{
-				content: '';
-				position: absolute;
-			}
-            
-			.audioplayer-volume-button a:before
-			{
-				width: 0;
-				height: 0;
-				border: 0.5em solid transparent; /* 8 */
-				border-left: none;
-				border-right-color: #FFFFFF;
-				z-index: 2;
-				top: 50%;
-				right: -0.25em;
-				margin-top: -0.5em; /* 8 */
-			}
-            
-            /* Color */
-			.audioplayer:not(.audioplayer-mute) .audioplayer-volume-button a:after
-			{
-				/* "volume" icon by Nicolas Gallagher, http://nicolasgallagher.com/pure-css-gui-icons */
-				width: 0.313em; /* 5 */
-				height: 0.313em; /* 5 */
-				border: 0.25em double #FFFFFF; /* 4 */
-				border-width: 0.25em 0.25em 0 0; /* 4 */
-				left: 0.563em; /* 9 */
-				top: -0.063em; /* 1 */
-				-webkit-border-radius: 0 0.938em 0 0; /* 15 */
-				-moz-border-radius: 0 0.938em 0 0; /* 15 */
-				border-radius: 0 0.938em 0 0; /* 15 */
-				-webkit-transform: rotate( 45deg );
-				-moz-transform: rotate( 45deg );
-				-ms-transform: rotate( 45deg );
-				-o-transform: rotate( 45deg );
-				transform: rotate( 45deg );
-			}
-
-	.audioplayer-volume-adjust
-	{
-		width: 100%;
-		height: 6.25em; /* 100 */
-		cursor: default;
-		position: absolute;
-		left: 0;
-		top: -9999px;
-		background: #222222;
-        
-
-        
-	}
-		.audioplayer-volume:not(:hover) .audioplayer-volume-adjust
-		{
-			opacity: 0;
-		}
-		.audioplayer-volume:hover .audioplayer-volume-adjust
-		{
-			top: auto;
-			bottom: 100%;
-		}
-		.audioplayer-volume-adjust > div
-		{
-			width: 40%;
-			height: 80%;
-			background-color: #3C3C3C;
-			cursor: pointer;
-			position: relative;
-			z-index: 1;
-			margin: 30% auto 0;
-		}
-        
-
-			.audioplayer-volume-adjust div div
-			{
-				width: 100%;
-				height: 100%;
-				position: absolute;
-				bottom: 0;
-				left: 0;
-                /* Accent Color */
-				background: #FFFFFF;
-			}
-	.audioplayer-novolume .audioplayer-volume
-	{
-		display: none;
-	} 
 </style>
-
   <!--/*
 
 */
 -->
  </head>
- <body>
+ <body class="museBGSize">
 
-  <div class="clearfix" id="page"><!-- group -->
-   <div class="browser_width grpelem" id="u641-bw">
-    <div id="u641"><!-- simple frame --></div>
-   </div>
-   <div class="browser_width grpelem" id="u401-bw">
-    <div id="u401"><!-- group -->
-     <div class="clearfix" id="u401_align_to_page">
-      <div class="grpelem" id="u415"><!-- custom html -->
-       
-				<style media="screen" type="text/css">
-				
-				#video_background {
-				position: fixed;
-				top: 0px;
-				left: 0px;
-				min-width: 100%;
-				min-height: 100%;
-				width: auto;
-				height: auto;
-				z-index: -1000;
-				background: url(assets/picture.jpg) no-repeat;
-				background-size: cover;
-				overflow: hidden;
-				}
-				</style>
-				
-				<video id="video_background" poster="assets/picture.jpg" preload="auto" autoplay="true" loop="loop" muted="muted"> 
-				<source src="assets/video.webm" type="video/webm">
-				<source src="assets/sydleague-w.mp4" type="video/mp4">
-				<source src="assets/video.ogv" type="video/ogg ogv">
-				</video>
-				
-</div>
-     </div>
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="pu618"><!-- group -->
+     <a class="nonblock nontext MuseLinkActive grpelem" id="u618" href="index.html"><!-- svg --><img class="svg" src="images/sydleague.svg" width="36" height="36" alt="" data-mu-svgfallback="images/sydleague_poster_.png"/></a>
+     <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u614-4" href="index.html"><!-- content --><p>SL</p></a>
+     <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u615-4" href="index.html"><!-- content --><p>Home</p></a>
+     <a class="nonblock nontext clearfix grpelem" id="u616-4" href="events.html"><!-- content --><p>Events</p></a>
+     <a class="nonblock nontext clearfix grpelem" id="u617-4" href="about.html"><!-- content --><p>About</p></a>
     </div>
+    <div class="rgba-background colelem" id="u632"><!-- simple frame --></div>
+    <div class="clearfix colelem" id="u245-4"><!-- content -->
+     <p>NEWS</p>
+    </div>
+    <div class="rgba-background colelem" id="u633"><!-- simple frame --></div>
    </div>
-   <div class="browser_width grpelem" id="u526-bw">
-    <div id="u526"><!-- custom html -->
-     <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-<script>var colors = new Array(
-  [255,35,98],
-  [62,35,255],
-  [45,175,230],
-  [255,0,255],
-  [240,128,0]);
-
-var step = 0;
-//color table indices for: 
-// current color left
-// next color left
-// current color right
-// next color right
-var colorIndices = [0,1,2,3];
-
-//transition speed
-var gradientSpeed = 0.002;
-
-function updateGradient()
-{
-  
-  if ( $===undefined ) return;
-  
-var c0_0 = colors[colorIndices[0]];
-var c0_1 = colors[colorIndices[1]];
-var c1_0 = colors[colorIndices[2]];
-var c1_1 = colors[colorIndices[3]];
-
-var istep = 1 - step;
-var r1 = Math.round(istep * c0_0[0] + step * c0_1[0]);
-var g1 = Math.round(istep * c0_0[1] + step * c0_1[1]);
-var b1 = Math.round(istep * c0_0[2] + step * c0_1[2]);
-var color1 = "rgb("+r1+","+g1+","+b1+")";
-
-var r2 = Math.round(istep * c1_0[0] + step * c1_1[0]);
-var g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
-var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
-var color2 = "rgb("+r2+","+g2+","+b2+")";
-
- $('#gradient').css({
-   background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
-    background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
-  
-  step += gradientSpeed;
-  if ( step >= 1 )
-  {
-    step %= 1;
-    colorIndices[0] = colorIndices[1];
-    colorIndices[2] = colorIndices[3];
-    
-    //pick two new target color indices
-    //do not pick the same as the current one
-    colorIndices[1] = ( colorIndices[1] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
-    colorIndices[3] = ( colorIndices[3] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
-    
-  }
-}
-
-setInterval(updateGradient,10);
-
-
-jQuery.browser = {};
-(function () {
-    jQuery.browser.msie = false;
-    jQuery.browser.version = 0;
-    if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
-        jQuery.browser.msie = true;
-        jQuery.browser.version = RegExp.$1;
-    }
-})();
-</script>
-
-<style>body{
-	 background-color: #000000;
-   padding: 0px;
-   margin: 0px;
- }
-
-#gradient
-{
-  width: 100vw;
-  height: 100vh;
-  padding: 0px;
-  margin: 0px;
-  opacity: 0.8;
-  max-width: 100%
-}</style>
-  </head>
-
-
-<div id="gradient"></>
-</div>
-   </div>
-   <div class="grpelem" id="u454"><!-- custom html -->
-    
-		<div id="wrapper">
-			<audio preload="auto" controls>
-             <source src="assets/ncfdgwf8oed2.128.mp3"><!-- Hide -->
-			<!--<source src="Add File"><!-- Hide -->
-			<!--<source src="Add File"><!-- Hide -->
-			</audio>
-
-			</div>
-
-</div>
-   <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u459-6" href="index.html"><!-- content --><p>SYDNEY<br/>LEAGUE</p></a>
-   <a class="nonblock nontext MuseLinkActive grpelem" id="u460" href="index.html"><!-- svg --><img class="svg" src="images/sydleague.svg" width="70" height="70" alt="" data-mu-svgfallback="images/sydleague_poster_.png"/></a>
-   <div class="clearfix grpelem" id="u83-4"><!-- content -->
-    <p>COUNTER-STRIKE</p>
-   </div>
-   <div class="clearfix grpelem" id="u84-4"><!-- content -->
-    <p>SIGNUP LINK</p>
-   </div>
-   <a class="nonblock nontext rgba-background clearfix grpelem" id="u85-4" href="mcs.html"><!-- content --><p>Major Championship Series</p></a>
-   <a class="nonblock nontext rgba-background clearfix grpelem" id="u88-4" href="summer-2016.html"><!-- content --><p>Summer Invitationals</p></a>
-   <a class="nonblock nontext rgba-background clearfix grpelem" id="u90-4" href="signup.html"><!-- content --><p>Signup here!!!</p></a>
-   <div class="clearfix grpelem" id="u466-4"><!-- content -->
-    <p>RAINBOW SIX: SIEGE</p>
-   </div>
-   <a class="nonblock nontext rgba-background clearfix grpelem" id="u467-4" href="mcs-rs.html"><!-- content --><p>Major Championship Series</p></a>
-   <a class="nonblock nontext clearfix grpelem" id="u530-4" href="https://soundcloud.com/uppermost/motion" title="Motions by Uppermost | SoundCloud"><!-- content --><p>Uppermost » Motions</p></a>
-   <a class="nonblock nontext rgba-background clearfix grpelem" id="u816-4" href="https://goo.gl/CrGA3L"><!-- content --><p>Direct link</p></a>
-   <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u637-4" href="index.html"><!-- content --><p>Home</p></a>
-   <a class="nonblock nontext clearfix grpelem" id="u638-4" href="events.html"><!-- content --><p>Events</p></a>
-   <a class="nonblock nontext clearfix grpelem" id="u639-4" href="teams.html"><!-- content --><p>Teams</p></a>
-   <a class="nonblock nontext clearfix grpelem" id="u640-4" href="about.html"><!-- content --><p>About</p></a>
   </div>
   <!-- JS includes -->
   <script type="text/javascript">
@@ -490,7 +88,7 @@ jQuery.browser = {};
    window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
 </script>
   <script src="scripts/museutils.js?183364071" type="text/javascript"></script>
-  <script src="scripts/jquery.watch.js?71412426" type="text/javascript"></script>
+  <script src="scripts/jquery.musepolyfill.bgsize.js?4004268962" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    $(document).ready(function() { try {
@@ -499,26 +97,9 @@ for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.re
 typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.resizeHeight()/* resize height */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 } catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
 </script>
-  
-  <!--HTML Widget code-->
-  
-<script>
-!function(e,t,a){var i="ontouchstart"in t,n=i?"touchstart":"mousedown",o=i?"touchmove":"mousemove",d=i?"touchcancel":"mouseup",u=function(e){var t=e/3600,a=Math.floor(t),i=e%3600/60,n=Math.floor(i),o=Math.ceil(e%3600%60);return o>59&&(o=0,n=Math.ceil(i)),n>59&&(n=0,a=Math.ceil(t)),(0==a?"":a>0&&a.toString().length<2?"0"+a+":":a+":")+(n.toString().length<2?"0"+n:n)+":"+(o.toString().length<2?"0"+o:o)},l=function(e){var t=a.createElement("audio");return!(!t.canPlayType||!t.canPlayType("audio/"+e.split(".").pop().toLowerCase()+";").replace(/no/,""))};e.fn.audioPlayer=function(t){var t=e.extend({classPrefix:"audioplayer",strPlay:"Play",strPause:"Pause",strVolume:"Volume"},t),a={},r={playPause:"playpause",playing:"playing",stopped:"stopped",time:"time",timeCurrent:"time-current",timeDuration:"time-duration",bar:"bar",barLoaded:"bar-loaded",barPlayed:"bar-played",volume:"volume",volumeButton:"volume-button",volumeAdjust:"volume-adjust",noVolume:"novolume",muted:"muted",mini:"mini"};for(var s in r)a[s]=t.classPrefix+"-"+r[s];return this.each(function(){if("audio"!=e(this).prop("tagName").toLowerCase())return!1;var r=e(this),s=r.attr("src"),v=r.get(0).getAttribute("autoplay"),v=""===v||"autoplay"===v?!0:!1,m=r.get(0).getAttribute("loop"),m=""===m||"loop"===m?!0:!1,c=!1;"undefined"==typeof s?r.find("source").each(function(){return s=e(this).attr("src"),"undefined"!=typeof s&&l(s)?(c=!0,!1):void 0}):l(s)&&(c=!0);var h=e('<div class="'+t.classPrefix+'">'+(c?e("<div>").append(r.eq(0).clone()).html():'<embed src="'+s+'" width="0" height="0" volume="100" autostart="'+v.toString()+'" loop="'+m.toString()+'" />')+'<div class="'+a.playPause+'" title="'+t.strPlay+'"><a href="#">'+t.strPlay+"</a></div></div>"),f=h.find(c?"audio":"embed"),f=f.get(0);if(c){h.find("audio").css({width:0,height:0,visibility:"hidden"}),h.append('<div class="'+a.time+" "+a.timeCurrent+'"></div><div class="'+a.bar+'"><div class="'+a.barLoaded+'"></div><div class="'+a.barPlayed+'"></div></div><div class="'+a.time+" "+a.timeDuration+'"></div><div class="'+a.volume+'"><div class="'+a.volumeButton+'" title="'+t.strVolume+'"><a href="#">'+t.strVolume+'</a></div><div class="'+a.volumeAdjust+'"><div><div></div></div></div></div>');var p=h.find("."+a.bar),y=h.find("."+a.barPlayed),g=h.find("."+a.barLoaded),b=h.find("."+a.timeCurrent),P=h.find("."+a.timeDuration),C=h.find("."+a.volumeButton),E=h.find("."+a.volumeAdjust+" > div"),w=0,M=function(e){theRealEvent=i?e.originalEvent.touches[0]:e,f.currentTime=Math.round(f.duration*(theRealEvent.pageX-p.offset().left)/p.width())},L=function(e){theRealEvent=i?e.originalEvent.touches[0]:e,f.volume=Math.abs((theRealEvent.pageY-(E.offset().top+E.height()))/E.height())},S=function(){var e=setInterval(function(){return f.buffered.length<1?!0:(g.width(f.buffered.end(0)/f.duration*100+"%"),void(Math.floor(f.buffered.end(0))>=Math.floor(f.duration)&&clearInterval(e)))},100)},V=f.volume,j=f.volume=.111;Math.round(1e3*f.volume)/1e3==j?f.volume=V:h.addClass(a.noVolume),P.html("…"),b.html(u(0)),f.addEventListener("loadeddata",function(){S(),P.html(e.isNumeric(f.duration)?u(f.duration):"…"),E.find("div").height(100*f.volume+"%"),w=f.volume}),f.addEventListener("timeupdate",function(){b.html(u(f.currentTime)),y.width(f.currentTime/f.duration*100+"%")}),f.addEventListener("volumechange",function(){E.find("div").height(100*f.volume+"%"),f.volume>0&&h.hasClass(a.muted)&&h.removeClass(a.muted),f.volume<=0&&!h.hasClass(a.muted)&&h.addClass(a.muted)}),f.addEventListener("ended",function(){h.removeClass(a.playing).addClass(a.stopped)}),p.on(n,function(e){M(e),p.on(o,function(e){M(e)})}).on(d,function(){p.unbind(o)}),C.on("click",function(){return h.hasClass(a.muted)?(h.removeClass(a.muted),f.volume=w):(h.addClass(a.muted),w=f.volume,f.volume=0),!1}),E.on(n,function(e){L(e),E.on(o,function(e){L(e)})}).on(d,function(){E.unbind(o)})}else h.addClass(a.mini);h.addClass(v?a.playing:a.stopped),h.find("."+a.playPause).on("click",function(){return h.hasClass(a.playing)?(e(this).attr("title",t.strPlay).find("a").html(t.strPlay),h.removeClass(a.playing).addClass(a.stopped),c?f.pause():f.Stop()):(e(this).attr("title",t.strPause).find("a").html(t.strPause),h.addClass(a.playing).removeClass(a.stopped),c?f.play():f.Play()),!1}),r.replaceWith(h)}),this}}(jQuery,window,document);
-</script>
-<script>
-$( 'audio' ).audioPlayer(
-{
-	strPlay: 'Play', // default value: 'Play'
-	strPause: 'Pause', // default value: 'Pause'
-	strVolume: 'Volume', // default value: 'Volume'
-});
-</script>
-
-
    </body>
 </html>

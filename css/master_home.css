@@ -1,0 +1,80 @@
+#u618
+{
+	overflow: hidden;
+	position: relative;
+}
+
+#u614-4
+{
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 32px;
+	line-height: 32px;
+	letter-spacing: 1px;
+	font-family: '__StratumNo2Bold_5';
+	font-weight: 700;
+	position: relative;
+}
+
+#u614-4.MuseLinkActive p
+{
+	font-size: 32px;
+}
+
+#u615-4
+{
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	font-family: '__Apercu Mono_5';
+	font-weight: 400;
+	position: relative;
+}
+
+#u615-4:hover p
+{
+	text-decoration: underline;
+}
+
+#u616-4
+{
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	font-family: '__Apercu Mono_5';
+	font-weight: 400;
+	position: relative;
+}
+
+#u615-4.MuseLinkActive p,#u616-4:hover p
+{
+	text-decoration: underline;
+}
+
+#u617-4
+{
+	background-color: transparent;
+	color: #FFFFFF;
+	text-align: right;
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 12px;
+	font-family: '__Apercu Mono_5';
+	font-weight: 400;
+	position: relative;
+}
+
+#u616-4.MuseLinkActive p,#u617-4:hover p
+{
+	text-decoration: underline;
+}
+
+#u617-4.MuseLinkActive p
+{
+	text-decoration: underline;
+}
+
