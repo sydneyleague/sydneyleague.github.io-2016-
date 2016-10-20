@@ -2,31 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sydneyleague.github.io/images/rainbow6-logo.png</loc>
-    <lastmod>2016-10-16</lastmod>
+    <lastmod>2016-10-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://sydneyleague.github.io/images/csgo-logo.png</loc>
-    <lastmod>2016-10-16</lastmod>
+    <lastmod>2016-10-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://sydneyleague.github.io/index.html</loc>
-    <lastmod>2016-10-16</lastmod>
+    <lastmod>2016-10-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://sydneyleague.github.io/events.html</loc>
-    <lastmod>2016-10-16</lastmod>
+    <lastmod>2016-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://sydneyleague.github.io/about.html</loc>
-    <lastmod>2016-10-16</lastmod>
+    <lastmod>2016-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sydneyleague.github.io/mcs.html</loc>
+    <lastmod>2016-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sydneyleague.github.io/404.html</loc>
+    <lastmod>2016-10-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

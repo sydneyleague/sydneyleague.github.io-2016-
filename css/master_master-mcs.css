@@ -1,4 +1,4 @@
-#u244
+#u872
 {
 	background: -webkit-gradient(linear, left center, right center, from(rgba(255,35,98,0.8)),color-stop(100%, rgba(240,128,0,0.8)));
 	background: -webkit-linear-gradient(left,rgba(255,35,98,0.8) ,rgba(240,128,0,0.8) 100%);
@@ -8,12 +8,12 @@
 	background-size: 100% auto;
 }
 
-#u244_align_to_page
+#u872_align_to_page
 {
 	position: relative;
 }
 
-#u83-4
+#u863-4
 {
 	background-color: transparent;
 	color: #FFFFFF;
@@ -25,64 +25,27 @@
 	position: relative;
 }
 
-#u86-4
+#u882-4
 {
 	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 12px;
-	line-height: 12px;
+	color: #777777;
+	font-size: 10px;
 	letter-spacing: 1px;
+	text-align: left;
+	line-height: 10px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
 }
 
-#u86-4:hover p
+#u882-4:hover p
 {
+	color: #FFCC00;
+	visibility: inherit;
 	text-decoration: underline;
 }
 
-#u89-4
-{
-	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 12px;
-	line-height: 12px;
-	letter-spacing: 1px;
-	font-family: '__Apercu Mono_5';
-	font-weight: 400;
-	position: relative;
-}
-
-#u86-4.MuseLinkActive p,#u89-4:hover p
-{
-	text-decoration: underline;
-}
-
-#u90-4
-{
-	background-color: transparent;
-	color: #FFFFFF;
-	text-align: right;
-	letter-spacing: 1px;
-	font-size: 12px;
-	line-height: 12px;
-	font-family: '__Apercu Mono_5';
-	font-weight: 400;
-	position: relative;
-}
-
-#u89-4.MuseLinkActive p,#u90-4:hover p
-{
-	text-decoration: underline;
-}
-
-#u90-4.MuseLinkActive p
-{
-	text-decoration: underline;
-}
-
-#u745,#u849
+#u862,#u868
 {
 	border-style: none;
 	border-color: transparent;
@@ -90,13 +53,13 @@
 	position: relative;
 }
 
-#u179,#u851
+#u864,#u869
 {
 	overflow: hidden;
 	position: relative;
 }
 
-#u850-4
+#u871-4
 {
 	background-color: transparent;
 	color: #FFFFFF;
@@ -108,72 +71,72 @@
 	position: relative;
 }
 
-#u83-4.MuseLinkActive p,#u850-4.MuseLinkActive p
+#u863-4.MuseLinkActive p,#u871-4.MuseLinkActive p
 {
 	font-size: 32px;
 }
 
-#u858-4
+#u873-4
 {
 	background-color: transparent;
 	color: #777777;
-	text-align: center;
-	letter-spacing: 1px;
 	font-size: 10px;
+	letter-spacing: 1px;
+	text-align: center;
 	line-height: 10px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
 }
 
-#u858-4:hover p
+#u873-4:hover p
 {
 	color: #FFCC00;
 	visibility: inherit;
 	text-decoration: underline;
 }
 
-#u854-4
+#u875-4
 {
 	background-color: transparent;
 	color: #777777;
-	text-align: center;
-	letter-spacing: 1px;
 	font-size: 10px;
+	letter-spacing: 1px;
+	text-align: center;
 	line-height: 10px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
 }
 
-#u854-4:hover p
+#u875-4:hover p
 {
 	color: #FFCC00;
 	visibility: inherit;
 	text-decoration: underline;
 }
 
-#u857-4
+#u867-4
 {
 	background-color: transparent;
 	color: #777777;
-	text-align: center;
-	letter-spacing: 1px;
 	font-size: 10px;
+	letter-spacing: 1px;
+	text-align: center;
 	line-height: 10px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
 }
 
-#u857-4:hover p
+#u867-4:hover p
 {
 	color: #FFCC00;
 	visibility: inherit;
 	text-decoration: underline;
 }
 
-#u858-4.MuseLinkActive p,#u854-4.MuseLinkActive p,#u857-4.MuseLinkActive p
+#u882-4.MuseLinkActive p,#u873-4.MuseLinkActive p,#u875-4.MuseLinkActive p,#u867-4.MuseLinkActive p
 {
 	color: #777777;
 	visibility: inherit;

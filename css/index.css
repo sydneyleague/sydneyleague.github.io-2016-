@@ -4,13 +4,13 @@
 
 .version.index /* version checker */
 {
-	color: #000010;
-	background-color: #FF6AA6;
+	color: #0000EA;
+	background-color: #2A8ADD;
 }
 
 .html
 {
-	background: #FFFFFF url("../images/infm.jpg") no-repeat center top fixed;
+	background: #FFFFFF url("../images/bg.jpg") no-repeat left top fixed;
 	background-size: cover;
 }
 
@@ -184,10 +184,10 @@
 	width: 400px;
 	height: 353px;
 	background-color: #FFFFFF;
-	background-color: rgba(255,255,255,0.1);
+	background-color: rgba(255,255,255,0.2);
 	margin-top: 67px;
 	position: relative;
-	-pie-background: rgba(255,255,255,0.1);
+	-pie-background: rgba(255,255,255,0.2);
 }
 
 @font-face
