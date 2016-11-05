@@ -1,44 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sydneyleague.github.io/images/rainbow6-logo.png</loc>
-    <lastmod>2016-10-20</lastmod>
+    <loc>https://sydneyleague.github.io/images/csgo-logo-wh2.png</loc>
+    <lastmod>2016-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://sydneyleague.github.io/images/csgo-logo.png</loc>
-    <lastmod>2016-10-20</lastmod>
+    <lastmod>2016-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sydneyleague.github.io/images/rainbow6-logo.png</loc>
+    <lastmod>2016-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sydneyleague.github.io/images/road.jpg</loc>
+    <lastmod>2016-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sydneyleague.github.io/images/cactus.jpg</loc>
+    <lastmod>2016-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sydneyleague.github.io/images/logo.png</loc>
+    <lastmod>2016-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://sydneyleague.github.io/index.html</loc>
-    <lastmod>2016-10-20</lastmod>
+    <lastmod>2016-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://sydneyleague.github.io/events.html</loc>
-    <lastmod>2016-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://sydneyleague.github.io/about.html</loc>
-    <lastmod>2016-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://sydneyleague.github.io/mcs.html</loc>
-    <lastmod>2016-10-20</lastmod>
+    <loc>https://sydneyleague.github.io/about2.html</loc>
+    <lastmod>2016-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://sydneyleague.github.io/404.html</loc>
-    <lastmod>2016-10-20</lastmod>
+    <lastmod>2016-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sydneyleague.github.io/events.html</loc>
+    <lastmod>2016-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sydneyleague.github.io/about.html</loc>
+    <lastmod>2016-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

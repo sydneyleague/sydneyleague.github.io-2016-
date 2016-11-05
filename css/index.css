@@ -4,13 +4,13 @@
 
 .version.index /* version checker */
 {
-	color: #0000EA;
-	background-color: #2A8ADD;
+	color: #000008;
+	background-color: #FA1172;
 }
 
 .html
 {
-	background: #FFFFFF url("../images/bg.jpg") no-repeat left top fixed;
+	background: #FFFFFF url("../images/frwr9jt-c2.jpg") no-repeat left top fixed;
 	background-size: cover;
 }
 
@@ -18,12 +18,11 @@
 {
 	z-index: 1;
 	width: 1200px;
-	min-height: 19.950000000000045px;
+	min-height: 1000px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -31,7 +30,7 @@
 #page_position_content
 {
 	padding-top: 58px;
-	padding-bottom: 927px;
+	padding-bottom: 40px;
 	width: 0.01px;
 }
 
@@ -42,14 +41,14 @@
 
 #u618
 {
-	z-index: 24;
+	z-index: 33;
 	width: 36px;
 	margin-right: -10000px;
 }
 
 #u614-4
 {
-	z-index: 8;
+	z-index: 17;
 	width: 40px;
 	min-height: 26px;
 	margin-right: -10000px;
@@ -68,7 +67,7 @@
 
 #u615-4
 {
-	z-index: 12;
+	z-index: 21;
 	width: 50px;
 	min-height: 12px;
 	margin-right: -10000px;
@@ -96,7 +95,7 @@
 
 #u616-4
 {
-	z-index: 16;
+	z-index: 25;
 	width: 60px;
 	min-height: 10px;
 	margin-right: -10000px;
@@ -124,7 +123,7 @@
 
 #u617-4
 {
-	z-index: 20;
+	z-index: 29;
 	width: 50px;
 	min-height: 10px;
 	margin-right: -10000px;
@@ -152,7 +151,7 @@
 
 #u632
 {
-	z-index: 6;
+	z-index: 2;
 	width: 1200px;
 	height: 1px;
 	background-color: #FFFFFF;
@@ -162,32 +161,142 @@
 	-pie-background: rgba(255,255,255,0.35);
 }
 
-#u245-4
+#pu633
 {
-	z-index: 2;
-	width: 200px;
-	min-height: 32px;
-	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 32px;
-	line-height: 38px;
-	letter-spacing: 1px;
-	font-family: '__StratumNo2Bold_5';
-	font-weight: 700;
-	margin-top: 64px;
-	position: relative;
+	width: 0.01px;
+	margin-left: 518px;
+	margin-top: 299px;
 }
 
 #u633
 {
-	z-index: 7;
-	width: 400px;
-	height: 353px;
-	background-color: #FFFFFF;
-	background-color: rgba(255,255,255,0.2);
-	margin-top: 67px;
+	z-index: 3;
+	width: 682px;
+	height: 67px;
+	background-color: #D8D8D8;
+	background-color: rgba(0,0,0,0.15);
 	position: relative;
-	-pie-background: rgba(255,255,255,0.2);
+	margin-right: -10000px;
+	-pie-background: rgba(0,0,0,0.15);
+}
+
+#u1093
+{
+	z-index: 4;
+	width: 300px;
+	height: 48px;
+	background-color: #D8D8D8;
+	background-color: rgba(0,0,0,0.15);
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 67px;
+	left: 382px;
+	-pie-background: rgba(0,0,0,0.15);
+}
+
+#u245-6
+{
+	z-index: 5;
+	width: 672px;
+	min-height: 104px;
+	background-color: transparent;
+	line-height: 48px;
+	text-align: right;
+	letter-spacing: 1px;
+	font-size: 48px;
+	color: #FFFFFF;
+	font-family: '__StratumNo2Bold_5';
+	font-weight: 700;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 11px;
+}
+
+#u1087
+{
+	z-index: 11;
+	width: 186px;
+	background-color: transparent;
+	margin-left: 1014px;
+	margin-top: 45px;
+	position: relative;
+}
+
+#u1278-4
+{
+	z-index: 13;
+	width: 200px;
+	min-height: 20px;
+	background-color: #BFBFBF;
+	background-color: rgba(0,0,0,0.25);
+	text-align: right;
+	color: #FFFFFF;
+	font-family: '__Apercu Mono_5';
+	font-weight: 400;
+	margin-left: 1000px;
+	margin-top: 122px;
+	position: relative;
+	-pie-background: rgba(0,0,0,0.25);
+}
+
+#u1278-4:hover
+{
+	background-color: #999999;
+	background-color: rgba(0,0,0,0.4);
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 20px;
+	width: 200px;
+	margin: 122px 0px 0px 1000px;
+	-pie-background: rgba(0,0,0,0.4);
+}
+
+#u1278-4:hover p
+{
+	text-decoration: underline;
+}
+
+#u1096
+{
+	z-index: 40;
+	overflow: hidden;
+	margin-left: 590px;
+	margin-top: 309px;
+	position: relative;
+}
+
+#u1095-6
+{
+	z-index: 34;
+	width: 200px;
+	min-height: 34px;
+	background-color: transparent;
+	line-height: 12px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 10px;
+	color: #F0F0F0;
+	font-family: '__Apercu Mono_5';
+	font-weight: 400;
+	margin-left: 500px;
+	margin-top: 2px;
+	position: relative;
+}
+
+#u1095-6:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 34px;
+	width: 200px;
+	margin: 2px 0px 0px 500px;
+}
+
+#u1095-6:hover p
+{
+	color: #FFCC00;
+	visibility: inherit;
+	text-decoration: underline;
 }
 
 @font-face
