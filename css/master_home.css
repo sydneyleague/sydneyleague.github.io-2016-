@@ -7,9 +7,9 @@
 #u614-4
 {
 	background-color: transparent;
+	color: #FFFFFF;
 	line-height: 32px;
 	font-size: 32px;
-	color: #FFFFFF;
 	letter-spacing: 1px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
@@ -24,9 +24,9 @@
 #u615-4
 {
 	background-color: transparent;
+	color: #FFFFFF;
 	line-height: 12px;
 	font-size: 12px;
-	color: #FFFFFF;
 	letter-spacing: 1px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
@@ -41,9 +41,9 @@
 #u616-4
 {
 	background-color: transparent;
+	color: #FFFFFF;
 	line-height: 12px;
 	font-size: 12px;
-	color: #FFFFFF;
 	letter-spacing: 1px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
@@ -58,11 +58,11 @@
 #u617-4
 {
 	background-color: transparent;
-	font-size: 12px;
-	color: #FFFFFF;
-	letter-spacing: 1px;
 	line-height: 12px;
+	color: #FFFFFF;
 	text-align: right;
+	letter-spacing: 1px;
+	font-size: 12px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;

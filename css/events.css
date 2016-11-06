@@ -4,13 +4,13 @@
 
 .version.events /* version checker */
 {
-	color: #0000F3;
-	background-color: #A9DE2A;
+	color: #0000F5;
+	background-color: #586314;
 }
 
 .html
 {
-	background: #FFFFFF url("../images/tom-clancys-rainbow-six-siege-operators-cinematic-9-2a.jpg") no-repeat left top fixed;
+	background: #FFFFFF url("../images/rainbowsix-op2.jpg") no-repeat left top fixed;
 	background-size: cover;
 }
 
@@ -179,11 +179,11 @@
 	width: 200px;
 	min-height: 50px;
 	background-color: transparent;
-	font-size: 48px;
-	color: #FFFFFF;
-	letter-spacing: 1px;
 	line-height: 48px;
+	color: #FFFFFF;
 	text-align: left;
+	letter-spacing: 1px;
+	font-size: 48px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -284,9 +284,9 @@
 	width: 310px;
 	min-height: 56px;
 	background-color: transparent;
+	color: #FFFFFF;
 	line-height: 32px;
 	font-size: 32px;
-	color: #FFFFFF;
 	letter-spacing: 1px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
@@ -366,9 +366,9 @@
 	width: 310px;
 	min-height: 56px;
 	background-color: transparent;
+	color: #FFFFFF;
 	line-height: 32px;
 	font-size: 32px;
-	color: #FFFFFF;
 	letter-spacing: 1px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
@@ -447,11 +447,11 @@
 	width: 200px;
 	min-height: 14px;
 	background-color: transparent;
-	font-size: 10px;
-	color: #F0F0F0;
-	letter-spacing: 1px;
 	line-height: 12px;
+	color: #F0F0F0;
 	text-align: center;
+	letter-spacing: 1px;
+	font-size: 10px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	margin-left: 500px;
