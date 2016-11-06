@@ -7,10 +7,10 @@
 #u614-4
 {
 	background-color: transparent;
-	letter-spacing: 1px;
-	color: #FFFFFF;
-	font-size: 32px;
 	line-height: 32px;
+	font-size: 32px;
+	color: #FFFFFF;
+	letter-spacing: 1px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -24,10 +24,10 @@
 #u615-4
 {
 	background-color: transparent;
-	letter-spacing: 1px;
-	color: #FFFFFF;
-	font-size: 12px;
 	line-height: 12px;
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 1px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -41,10 +41,10 @@
 #u616-4
 {
 	background-color: transparent;
-	letter-spacing: 1px;
-	color: #FFFFFF;
-	font-size: 12px;
 	line-height: 12px;
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 1px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -58,11 +58,11 @@
 #u617-4
 {
 	background-color: transparent;
-	line-height: 12px;
-	text-align: right;
-	letter-spacing: 1px;
 	font-size: 12px;
 	color: #FFFFFF;
+	letter-spacing: 1px;
+	line-height: 12px;
+	text-align: right;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;

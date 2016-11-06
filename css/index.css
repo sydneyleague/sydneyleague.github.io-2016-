@@ -4,8 +4,8 @@
 
 .version.index /* version checker */
 {
-	color: #000008;
-	background-color: #FA1172;
+	color: #000017;
+	background-color: #3868C8;
 }
 
 .html
@@ -200,11 +200,11 @@
 	width: 672px;
 	min-height: 104px;
 	background-color: transparent;
-	line-height: 48px;
-	text-align: right;
-	letter-spacing: 1px;
 	font-size: 48px;
 	color: #FFFFFF;
+	letter-spacing: 1px;
+	line-height: 48px;
+	text-align: right;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -234,7 +234,7 @@
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	margin-left: 1000px;
-	margin-top: 122px;
+	margin-top: 67px;
 	position: relative;
 	-pie-background: rgba(0,0,0,0.25);
 }
@@ -247,7 +247,7 @@
 	padding-bottom: 0px;
 	min-height: 20px;
 	width: 200px;
-	margin: 122px 0px 0px 1000px;
+	margin: 67px 0px 0px 1000px;
 	-pie-background: rgba(0,0,0,0.4);
 }
 
@@ -261,7 +261,7 @@
 	z-index: 40;
 	overflow: hidden;
 	margin-left: 590px;
-	margin-top: 309px;
+	margin-top: 364px;
 	position: relative;
 }
 
@@ -271,11 +271,11 @@
 	width: 200px;
 	min-height: 34px;
 	background-color: transparent;
-	line-height: 12px;
-	text-align: center;
-	letter-spacing: 1px;
 	font-size: 10px;
 	color: #F0F0F0;
+	letter-spacing: 1px;
+	line-height: 12px;
+	text-align: center;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	margin-left: 500px;

@@ -7,43 +7,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://sydneyleague.github.io/images/csgo-logo.png</loc>
-    <lastmod>2016-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://sydneyleague.github.io/images/rainbow6-logo.png</loc>
-    <lastmod>2016-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://sydneyleague.github.io/images/road.jpg</loc>
-    <lastmod>2016-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://sydneyleague.github.io/images/cactus.jpg</loc>
-    <lastmod>2016-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://sydneyleague.github.io/images/logo.png</loc>
     <lastmod>2016-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://sydneyleague.github.io/index.html</loc>
+    <loc>https://sydneyleague.github.io/images/ctlogowhlarge.png</loc>
     <lastmod>2016-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://sydneyleague.github.io/about2.html</loc>
+    <loc>https://sydneyleague.github.io/index.html</loc>
     <lastmod>2016-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -62,6 +38,12 @@
   </url>
   <url>
     <loc>https://sydneyleague.github.io/about.html</loc>
+    <lastmod>2016-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sydneyleague.github.io/mcs-cs.html</loc>
     <lastmod>2016-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

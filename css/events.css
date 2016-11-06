@@ -4,8 +4,8 @@
 
 .version.events /* version checker */
 {
-	color: #0000E3;
-	background-color: #83B4B8;
+	color: #0000F3;
+	background-color: #A9DE2A;
 }
 
 .html
@@ -179,11 +179,11 @@
 	width: 200px;
 	min-height: 50px;
 	background-color: transparent;
-	line-height: 48px;
-	text-align: left;
-	letter-spacing: 1px;
 	font-size: 48px;
 	color: #FFFFFF;
+	letter-spacing: 1px;
+	line-height: 48px;
+	text-align: left;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -221,9 +221,9 @@
 	width: 75px;
 	min-height: 14px;
 	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 12px;
 	line-height: 14px;
+	font-size: 12px;
+	color: #FFFFFF;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -284,10 +284,10 @@
 	width: 310px;
 	min-height: 56px;
 	background-color: transparent;
-	letter-spacing: 1px;
-	color: #FFFFFF;
-	font-size: 32px;
 	line-height: 32px;
+	font-size: 32px;
+	color: #FFFFFF;
+	letter-spacing: 1px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -336,9 +336,9 @@
 	width: 205px;
 	min-height: 20px;
 	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 12px;
 	line-height: 14px;
+	font-size: 12px;
+	color: #FFFFFF;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	margin-top: 10px;
@@ -366,10 +366,10 @@
 	width: 310px;
 	min-height: 56px;
 	background-color: transparent;
-	letter-spacing: 1px;
-	color: #FFFFFF;
-	font-size: 32px;
 	line-height: 32px;
+	font-size: 32px;
+	color: #FFFFFF;
+	letter-spacing: 1px;
 	font-family: '__StratumNo2Bold_5';
 	font-weight: 700;
 	position: relative;
@@ -423,9 +423,9 @@
 	width: 205px;
 	min-height: 20px;
 	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 12px;
 	line-height: 14px;
+	font-size: 12px;
+	color: #FFFFFF;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	margin-top: 10px;
@@ -447,11 +447,11 @@
 	width: 200px;
 	min-height: 14px;
 	background-color: transparent;
-	line-height: 12px;
-	text-align: center;
-	letter-spacing: 1px;
 	font-size: 10px;
 	color: #F0F0F0;
+	letter-spacing: 1px;
+	line-height: 12px;
+	text-align: center;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	margin-left: 500px;
