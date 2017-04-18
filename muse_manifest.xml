@@ -1,41 +1,37 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://sydneyleague.github.io" resolutions="1x" timestamp="1478426613838">
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="sydneyleague.github.io" resolutions="1x" timestamp="1492522588742">
   <folder name="css">
-    <file name="site_global.css" crc="4052507572"/>
-    <file name="master_home.css" crc="4102161482" ref="events:about:index:mcs-cs"/>
-    <file name="404.css" crc="3893980739" ref="404"/>
-    <file name="events.css" crc="4116210452" ref="events"/>
-    <file name="about.css" crc="82328625" ref="about"/>
-    <file name="index.css" crc="4038755651" ref="index"/>
-    <file name="mcs-cs.css" crc="530572373" ref="mcs-cs"/>
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="166148417" ref="index"/>
+    <file name="master_a-master.css" crc="448529843" ref="events"/>
+    <file name="events.css" crc="4171021651" ref="events"/>
   </folder>
   <folder name="fonts">
-    <file name="apercu-mono-webfont.woff" crc="374742191"/>
-    <file name="apercu-mono-webfont.eot" crc="4171677180"/>
     <file name="stratumno2-bold-webfont.woff" crc="3766144786"/>
     <file name="stratumno2-bold-webfont.eot" crc="4222924298"/>
+    <file name="apercu-mono-webfont.woff" crc="331946448"/>
+    <file name="apercu-mono-webfont.eot" crc="354474332"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:404:events:about:mcs-cs"/>
-    <file name="museutils.js" crc="183364071" ref="index:404:events:about:mcs-cs"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="index:events:about"/>
-    <file name="pie.js" crc="3827607177" ref="index:events:about:mcs-cs"/>
-    <file name="webpro.js" crc="3803554875" ref="mcs-cs"/>
-    <file name="musewpdisclosure.js" crc="3993616448" ref="mcs-cs"/>
-    <file name="jquery.watch.js" crc="71412426" ref="mcs-cs"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:events"/>
+    <file name="museutils.js" crc="4148063285" ref="index:events"/>
+    <file name="whatinput.js" crc="86476730" ref="index:events"/>
+    <file name="museconfig.js" crc="172512987" ref="index:events"/>
+    <file name="webpro.js" crc="3986320349" ref="index:events"/>
+    <file name="musewpslideshow.js" crc="405464237" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="305414130" ref="index"/>
+    <file name="touchswipe.js" crc="221459597" ref="index"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index:events"/>
+    <file name="require.js" crc="4159430777" ref="index:events"/>
+    <file name="musewpdisclosure.js" crc="3865010892" ref="events"/>
   </folder>
   <folder name="images">
-    <file name="frwr9jt-c2.jpg" crc="190070535" ref="index:about"/>
-    <file name="sydleague.svg" crc="4108607956" ref="index:404:events:about:mcs-cs"/>
-    <file name="sydleague_poster_.png" crc="3992164956" ref="index"/>
-    <file name="csgo-logo-wh2.png" crc="262235611" seo="true" ref="index:events"/>
-    <file name="logo.png" crc="137949770" seo="true" ref="events"/>
-    <file name="src scl summer main poster.jpg" crc="4099459822" ref="mcs-cs"/>
-    <file name="ctlogowhlarge.png" crc="337774593" seo="true" ref="mcs-cs"/>
-    <file name="rainbowsix-op2.jpg" crc="14201128" ref="events"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="sydleague2a-wh.png" crc="202557491" seo="true" ref="index"/>
+    <file name="temp.jpg" crc="3864247893" seo="true" ref="index"/>
+    <file name="andcs2-sydl-ed.jpg" crc="4292761399" seo="true" ref="index"/>
+    <file name="sydleague2a.png" crc="4283893787" seo="true" ref="events"/>
   </folder>
-  <file name="index.html" crc="234077314" seo="true" mt="1478425106332" redirect="true"/>
-  <file name="404.html" crc="4016771431" seo="true" mt="1478411843249" redirect="true"/>
-  <file name="events.html" crc="3775048009" seo="true" mt="1478426560258" redirect="true"/>
-  <file name="about.html" crc="416753255" seo="true" mt="1478425106332" redirect="true"/>
-  <file name="mcs-cs.html" crc="4287097392" seo="true" mt="1478426612674" redirect="true"/>
+  <file name="index.html" crc="4280874141" seo="true" mt="1492522178682" redirect="true"/>
+  <file name="events.html" crc="3910695116" seo="true" mt="1492522579173" redirect="true"/>
 </manifest>

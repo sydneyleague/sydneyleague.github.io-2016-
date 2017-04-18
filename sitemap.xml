@@ -1,50 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sydneyleague.github.io/images/csgo-logo-wh2.png</loc>
-    <lastmod>2016-11-06</lastmod>
+    <loc>http://sydneyleague.github.io/index.html</loc>
+    <lastmod>2017-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://sydneyleague.github.io/images/logo.png</loc>
-    <lastmod>2016-11-06</lastmod>
+    <loc>http://sydneyleague.github.io/events.html</loc>
+    <lastmod>2017-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://sydneyleague.github.io/images/ctlogowhlarge.png</loc>
-    <lastmod>2016-11-06</lastmod>
+    <loc>http://sydneyleague.github.io/images/temp.jpg</loc>
+    <lastmod>2017-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://sydneyleague.github.io/index.html</loc>
-    <lastmod>2016-11-06</lastmod>
+    <loc>http://sydneyleague.github.io/images/sydleague2a-wh.png</loc>
+    <lastmod>2017-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://sydneyleague.github.io/404.html</loc>
-    <lastmod>2016-11-06</lastmod>
+    <loc>http://sydneyleague.github.io/images/andcs2-sydl-ed.jpg</loc>
+    <lastmod>2017-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://sydneyleague.github.io/events.html</loc>
-    <lastmod>2016-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://sydneyleague.github.io/about.html</loc>
-    <lastmod>2016-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://sydneyleague.github.io/mcs-cs.html</loc>
-    <lastmod>2016-11-06</lastmod>
+    <loc>http://sydneyleague.github.io/images/sydleague2a.png</loc>
+    <lastmod>2017-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
